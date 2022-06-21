@@ -22,7 +22,10 @@ public class GuiAgain {
         */
         Myframe frame = new Myframe();
         
+        // hello Im Amir hossein
         
+        Myframe frame2 = new Myframe();
+
         
         
     
