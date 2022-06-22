@@ -45,7 +45,14 @@ public class PanelSafheyeAval extends JPanel  {
         add(Asan);
         add(Sakht);
         add(RekordHa);
-        add(BarnameNevisan);        
+        add(BarnameNevisan); 
+        
+ // Turn off focusable
+        Asan.setFocusable(false);
+        Sakht.setFocusable(false);
+        RekordHa.setFocusable(false);
+        BarnameNevisan.setFocusable(false);
+        
 
 // Ghabeliat Didane Frame      
         setVisible(true);
