@@ -75,7 +75,7 @@ public class SafheyeAval extends JFrame{
 
         Sakht.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                new EASYpage2();
+                new BakhsheSakht();
 
 // Safheye Ghabli ra Mibandad         
                 setVisible(false);
