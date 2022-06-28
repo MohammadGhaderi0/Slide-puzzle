@@ -19,8 +19,8 @@ public class EASYpage2 extends JFrame{ // بجاي پنل از فريم استف
         setLayout(null); 
         //setPreferredSize(new Dimension(500, 700));
         setLocationRelativeTo(null); // اين رو حتما بنويس تا بياره مرکز
-        three = new JButton("3*3");    
-        four = new JButton("4 x 4");
+        three = new JButton("3x3");    
+        four = new JButton("4x4");
         five = new JButton("5x5");        
         getContentPane().setBackground(Color.GREEN); 
         three.setBounds(100,100,100,100);
