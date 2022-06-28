@@ -15,7 +15,7 @@ public class BakhsheSakht extends JFrame{
 
         public BakhsheSakht(){
         
-        super("Welcom to Choobin Pazel"); 
+        super("15 Puzzle"); 
         
 // Andaze Frame       
         setSize(500,700);        
@@ -27,13 +27,13 @@ public class BakhsheSakht extends JFrame{
         setLocationRelativeTo(null);
         
 // Sakhte Yek Nemone Az Dokmeha Be Hamrahe Nameshoon        
-        SeDarSe= new JButton("3x3");    
-        ChaharDarChahar = new JButton("4x4");
+        SeDarSe= new JButton("3*3");    
+        ChaharDarChahar = new JButton("4 x 4");
         PanjDarPanj = new JButton("5x5");  
         Khane = new JButton("خانه");  
         
         
-        getContentPane().setBackground(Color.lightGray);
+        getContentPane().setBackground(new Color(41, 52, 74));
         
 // Andaze Va Mokhtasate Dokmeha        
         SeDarSe.setBounds(100,100,100,100);

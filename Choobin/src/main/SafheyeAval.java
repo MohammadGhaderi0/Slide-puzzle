@@ -16,7 +16,7 @@ public class SafheyeAval extends JFrame{
 // Sazandeye Frame      
     public  SafheyeAval(){
 
-        super("Welcom to Choobin Pazel");
+        super("15 Puzzle");
 
 // Andaze Frame
         setSize(500,700);
@@ -37,14 +37,14 @@ public class SafheyeAval extends JFrame{
         Asan.setBackground(Color.pink);
 
 // Andaze Va Mokhtasate Dokmeha
-        Asan.setBounds(100,100,100,100);
-        Sakht.setBounds(200,200,100,100);
-        RekordHa.setBounds(300,300,100,100);
-        BarnameNevisan.setBounds(40,400,100,100);
-//        Asan.setFocusable(false);
-//        Sakht.setFocusable(false);
-//        RekordHa.setFocusable(false);
-//        BarnameNevisan.setFocusable(false);
+        Asan.setBounds(90,100,100,100);
+        Sakht.setBounds(290,100,100,100);
+        RekordHa.setBounds(290,300,100,100);
+        BarnameNevisan.setBounds(90,300,100,100);
+        Asan.setFocusable(false);
+        Sakht.setFocusable(false);
+        RekordHa.setFocusable(false);
+        BarnameNevisan.setFocusable(false);
 // Ezafe Kardan Dokmeha Be Panel       
         add(Asan);
         add(Sakht);
@@ -52,7 +52,15 @@ public class SafheyeAval extends JFrame{
         add(BarnameNevisan);       
 
 // Taghire Rangge Pas Zamine
-        getContentPane().setBackground(Color.pink);
+        getContentPane().setBackground(new Color(41, 52, 74));
+        Asan.setBackground(new Color(0,160,96));
+        Sakht.setBackground(new Color(0,160,96));
+        RekordHa.setBackground(new Color(0,160,96));
+        BarnameNevisan.setBackground(new Color(0,160,96));
+        Asan.setForeground(Color.WHITE);
+        Sakht.setForeground(Color.WHITE);
+        RekordHa.setForeground(Color.WHITE);
+        BarnameNevisan.setForeground(Color.WHITE);
 
 // Laye Bandie Panel
         setLayout(null);
@@ -95,7 +103,7 @@ public class SafheyeAval extends JFrame{
 
         BarnameNevisan.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                new EASYpage2();
+                new Developers();
 
 // Safheye Ghabli ra Mibandad                
                 setVisible(false);
