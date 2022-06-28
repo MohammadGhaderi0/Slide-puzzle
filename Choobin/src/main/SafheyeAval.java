@@ -12,6 +12,7 @@ public class SafheyeAval extends JFrame{
         public JButton Sakht;
         public JButton RekordHa;
         public JButton BarnameNevisan;
+        public String[][] AmirVaMohammad={{"12:25","Amir Hossein"},{"12:25","Mohammad Ghadiri"}};        
 
 // Sazandeye Frame      
     public  SafheyeAval(){
@@ -93,7 +94,7 @@ public class SafheyeAval extends JFrame{
 
         RekordHa.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                new EASYpage2();
+                new RecordHa(AmirVaMohammad);
 
 // Safheye Ghabli ra Mibandad                 
                 setVisible(false);
