@@ -27,10 +27,10 @@ public class BakhsheSakht extends JFrame{
         setLocationRelativeTo(null);
         
 // Sakhte Yek Nemone Az Dokmeha Be Hamrahe Nameshoon        
-        SeDarSe= new JButton("3*3");    
+        SeDarSe= new JButton("3 X 3");    
         ChaharDarChahar = new JButton("4 x 4");
-        PanjDarPanj = new JButton("5x5");  
-        Khane = new JButton("خانه");  
+        PanjDarPanj = new JButton("5 x 5");  
+        Khane = new JButton("برگشت");  
         
         
         getContentPane().setBackground(new Color(41, 52, 74));
@@ -53,6 +53,27 @@ public class BakhsheSakht extends JFrame{
 // Ghabeliat Didane Frame      
         setVisible(true);
         
+        SeDarSe.setBackground(new Color(0,160,96));
+        ChaharDarChahar.setBackground(new Color(0,160,96));
+        PanjDarPanj.setBackground(new Color(0,160,96));
+        Khane.setBackground(new Color(0,160,96));
+        
+        SeDarSe.setBounds(180,100,100,100);
+        ChaharDarChahar.setBounds(180,210,100,100);
+        PanjDarPanj.setBounds(180,320,100,100);
+        Khane.setBounds(180,440,100,100);
+        
+        SeDarSe.setFocusable(false);
+        ChaharDarChahar.setFocusable(false);
+        PanjDarPanj.setFocusable(false);
+        Khane.setFocusable(false);
+        
+        
+        
+        SeDarSe.setForeground(Color.WHITE);
+        ChaharDarChahar.setForeground(Color.WHITE);
+        PanjDarPanj.setForeground(Color.WHITE);
+        Khane.setForeground(Color.WHITE);
         
         
 // Baraye Dokme Ha Yek  Ezafe Mikonam     
