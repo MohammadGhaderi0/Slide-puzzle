@@ -18,8 +18,8 @@ public class RecordHa extends  JFrame{
 // Sazandeye Frame      
         public RecordHa(String[][] BaghiyeRadifHa)  {        
                     
-                    super("Welcom to Choobin  Pazel"); 
-              
+                    super("15 Puzzle");
+        
 // Andaze Frame
                     setSize(500,700);
                     
@@ -30,7 +30,7 @@ public class RecordHa extends  JFrame{
                     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
                     
 // Sakhte Yek Nemone Az Dokmeha Be Hamrahe Nameshoon     
-                    Khane = new JButton("خانه");
+                    Khane = new JButton("برگشت");
                     Recordha=new JTable(BaghiyeRadifHa,RadifeAval);
                     
 // Andaze Va Mokhtasate Dokmeha
