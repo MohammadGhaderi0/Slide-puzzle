@@ -27,8 +27,8 @@ public class BakhsheSakht extends JFrame{
         setLocationRelativeTo(null);
         
 // Sakhte Yek Nemone Az Dokmeha Be Hamrahe Nameshoon        
-        SeDarSe= new JButton("3*3");    
-        ChaharDarChahar = new JButton("4 x 4");
+        SeDarSe= new JButton("3x3");    
+        ChaharDarChahar = new JButton("4x4");
         PanjDarPanj = new JButton("5x5");  
         Khane = new JButton("خانه");  
         
