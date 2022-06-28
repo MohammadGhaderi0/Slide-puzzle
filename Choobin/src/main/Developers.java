@@ -26,7 +26,7 @@ public class Developers extends JFrame{
         
         label1.setText("Developers:");
         label2.setText("    Mohammad Ghaderi");
-        label3.setText("    Amir Hossein zade");
+        label3.setText("    Amir Hossein Hossein Zadeh Fakhari");
         
         
         setVisible(true);
