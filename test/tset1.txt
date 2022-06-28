@@ -1,1 +1,3 @@
-hello
+Hello
+
+We practice git in this file
