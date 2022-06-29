@@ -67,5 +67,12 @@ public class EASYpage2 extends JFrame{ // بجاي پنل از فريم استف
                 setVisible(false);
          }
         });
+        four.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+                new game4x4easy();                          
+                setVisible(false);
+         }
+        });
+        
     }}
 

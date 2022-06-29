@@ -7,6 +7,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
 
 
 public class game3x3easy extends JFrame{
@@ -30,6 +32,7 @@ public class game3x3easy extends JFrame{
     public JButton btn7;
     public JButton btn8;
     public JButton btn9;
+    public JButton back;
     
     
     public game3x3easy(){
@@ -61,6 +64,7 @@ public class game3x3easy extends JFrame{
         btn7 =new JButton("7");
         btn8 =new JButton("8");
         btn9 =new JButton("");
+        back = new JButton("برگشت");
         
         
         add(btn1);
@@ -72,6 +76,7 @@ public class game3x3easy extends JFrame{
         add(btn7);
         add(btn8);
         add(btn9);
+        add(back);
        
         
         btn1.setBounds(80,100,100,100);
@@ -83,6 +88,7 @@ public class game3x3easy extends JFrame{
         btn7.setBounds(80,320,100,100);
         btn8.setBounds(190,320,100,100);
         btn9.setBounds(300,320,100,100);
+        back.setBounds(320,570,100,50);
         
         
         btn1.addActionListener(new ActionListener(){
@@ -145,7 +151,16 @@ public class game3x3easy extends JFrame{
                 move(btn9, btn8);
                         }
         });
-        
+        back.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+                int a =JOptionPane.showConfirmDialog(null,"Are you sure?");
+                if (a ==0){
+                    new EASYpage2();
+                    setVisible(false);
+                    
+                }
+                        }
+        });
         
         
         
