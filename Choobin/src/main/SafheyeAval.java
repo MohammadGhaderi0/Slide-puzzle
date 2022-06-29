@@ -54,6 +54,18 @@ public class SafheyeAval extends JFrame{
         Sakht.setFont(new Font("homa ", Font.BOLD, 25));
         RekordHa.setFont(new Font("homa ", Font.BOLD, 25));
         BarnameNevisan.setFont(new Font("homa ", Font.BOLD, 25));
+       
+// Taghire Rangge Pas Zamine
+        getContentPane().setBackground(new Color(41, 52, 74));
+        Asan.setBackground(new Color(0,160,96));
+        Sakht.setBackground(new Color(0,160,96));
+        RekordHa.setBackground(new Color(0,160,96));
+        BarnameNevisan.setBackground(new Color(0,160,96));
+ // Ranggesh Avaz Mishe           
+        Asan.setForeground(Color.WHITE);
+        Sakht.setForeground(Color.WHITE);
+        RekordHa.setForeground(Color.WHITE);
+        BarnameNevisan.setForeground(Color.WHITE);
             
 // Ezafe Kardan Dokmeha Be Panel       
         add(Asan);
@@ -61,17 +73,6 @@ public class SafheyeAval extends JFrame{
         add(RekordHa);
         add(BarnameNevisan);       
 
-// Taghire Rangge Pas Zamine
-        getContentPane().setBackground(new Color(41, 52, 74));
-        Asan.setBackground(new Color(0,160,96));
-        Sakht.setBackground(new Color(0,160,96));
-        RekordHa.setBackground(new Color(0,160,96));
-        BarnameNevisan.setBackground(new Color(0,160,96));
- // Rangge Pas Zamine Avaz Mishe           
-        Asan.setForeground(Color.WHITE);
-        Sakht.setForeground(Color.WHITE);
-        RekordHa.setForeground(Color.WHITE);
-        BarnameNevisan.setForeground(Color.WHITE);
 
 // Laye Bandie Panel
         setLayout(null);
