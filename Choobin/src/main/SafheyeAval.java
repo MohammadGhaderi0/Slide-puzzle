@@ -32,20 +32,29 @@ public class SafheyeAval extends JFrame{
         Asan = new JButton("آسان");
         Sakht = new JButton("سخت");
         RekordHa = new JButton("رکوردها"); 
-        BarnameNevisan = new JButton("برنامه نويسان");     
+        BarnameNevisan = new JButton("برنامه‌نويسان");     
 
 
         Asan.setBackground(Color.pink);
 
 // Andaze Va Mokhtasate Dokmeha
-        Asan.setBounds(90,100,100,100);
-        Sakht.setBounds(290,100,100,100);
-        RekordHa.setBounds(290,300,100,100);
-        BarnameNevisan.setBounds(90,300,100,100);
+        Asan.setBounds(67,150,150,50);
+        Sakht.setBounds(267,150,150,50);
+        RekordHa.setBounds(267,350,150,50);
+        BarnameNevisan.setBounds(67,350,150,50);
+            
+// Halate Focus Az Roye Dokme ha Bardashte Mishe            
         Asan.setFocusable(false);
         Sakht.setFocusable(false);
         RekordHa.setFocusable(false);
         BarnameNevisan.setFocusable(false);
+            
+// Taghire Font Va Andaze va Style Dokme ha             
+        Asan.setFont(new Font("homa", Font.BOLD, 25));
+        Sakht.setFont(new Font("homa ", Font.BOLD, 25));
+        RekordHa.setFont(new Font("homa ", Font.BOLD, 25));
+        BarnameNevisan.setFont(new Font("homa ", Font.BOLD, 25));
+            
 // Ezafe Kardan Dokmeha Be Panel       
         add(Asan);
         add(Sakht);
@@ -58,6 +67,7 @@ public class SafheyeAval extends JFrame{
         Sakht.setBackground(new Color(0,160,96));
         RekordHa.setBackground(new Color(0,160,96));
         BarnameNevisan.setBackground(new Color(0,160,96));
+ // Rangge Pas Zamine Avaz Mishe           
         Asan.setForeground(Color.WHITE);
         Sakht.setForeground(Color.WHITE);
         RekordHa.setForeground(Color.WHITE);
