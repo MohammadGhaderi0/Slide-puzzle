@@ -2,6 +2,9 @@ package main;
 
 import java.awt.Color;
 import javax.swing.BorderFactory;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.border.BevelBorder;
@@ -29,8 +32,8 @@ public class Developers extends JFrame{
         
         
         label1.setText(":کاری‌از");
-        label2.setText("    امیر‌حسین‌ حسین‌زاده‌ فخاری");
-        label3.setText("   محمد قادری");
+        label2.setText("امیر‌حسین‌ حسین‌زاده‌ فخاری");
+        label3.setText("محمد قادری");
         
         label1.setFont(new Font("homa", Font.BOLD, 25));
         label2.setFont(new Font("homa ", Font.BOLD, 25));
