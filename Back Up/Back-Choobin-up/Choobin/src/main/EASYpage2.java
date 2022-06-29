@@ -57,9 +57,13 @@ public class EASYpage2 extends JFrame{ // بجاي پنل از فريم استف
         home.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 
-                new SafheyeAval();
-
-// Safheye Ghabli ra Mibandad                
+                new SafheyeAval();              
+                setVisible(false);
+         }
+        });
+        three.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+                new game3x3easy();                          
                 setVisible(false);
          }
         });
