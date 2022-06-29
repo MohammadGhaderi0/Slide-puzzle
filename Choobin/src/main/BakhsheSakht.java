@@ -36,10 +36,34 @@ public class BakhsheSakht extends JFrame{
         getContentPane().setBackground(new Color(41, 52, 74));
         
 // Andaze Va Mokhtasate Dokmeha        
-        SeDarSe.setBounds(100,100,100,100);
-        ChaharDarChahar.setBounds(100,2,100,100);
-        PanjDarPanj.setBounds(2,100,100,100);
-        Khane.setBounds(2,10,100,100);
+        SeDarSe.setBounds(67,150,150,50);
+        ChaharDarChahar.setBounds(267,150,150,50);
+        PanjDarPanj.setBounds(267,350,150,50);
+        Khane.setBounds(67,350,150,50);
+                
+// Taghire Font Va Andaze va Style Dokme ha             
+        Khane.setFont(new Font("homa", Font.BOLD, 25));
+                
+                
+ // Rangge Pas Zamine Avaz Mishe                        
+        SeDarSe.setBackground(new Color(0,160,96));
+        ChaharDarChahar.setBackground(new Color(0,160,96));
+        PanjDarPanj.setBackground(new Color(0,160,96));
+        Khane.setBackground(new Color(0,160,96));
+        
+
+// Halate Focus Az Roye Dokme ha Bardashte Mishe            
+        SeDarSe.setFocusable(false);
+        ChaharDarChahar.setFocusable(false);
+        PanjDarPanj.setFocusable(false);
+        Khane.setFocusable(false);
+        
+        
+ // Ranggesh Avaz Mishe                        
+        SeDarSe.setForeground(Color.WHITE);
+        ChaharDarChahar.setForeground(Color.WHITE);
+        PanjDarPanj.setForeground(Color.WHITE);
+        Khane.setForeground(Color.WHITE);
         
 // Ezafe Kardan Dokmeha Be Frame       
         add(SeDarSe);        
@@ -52,29 +76,8 @@ public class BakhsheSakht extends JFrame{
         
 // Ghabeliat Didane Frame      
         setVisible(true);
-        
-        SeDarSe.setBackground(new Color(0,160,96));
-        ChaharDarChahar.setBackground(new Color(0,160,96));
-        PanjDarPanj.setBackground(new Color(0,160,96));
-        Khane.setBackground(new Color(0,160,96));
-        
-        SeDarSe.setBounds(180,100,100,100);
-        ChaharDarChahar.setBounds(180,210,100,100);
-        PanjDarPanj.setBounds(180,320,100,100);
-        Khane.setBounds(180,440,100,100);
-        
-        SeDarSe.setFocusable(false);
-        ChaharDarChahar.setFocusable(false);
-        PanjDarPanj.setFocusable(false);
-        Khane.setFocusable(false);
-        
-        
-        
-        SeDarSe.setForeground(Color.WHITE);
-        ChaharDarChahar.setForeground(Color.WHITE);
-        PanjDarPanj.setForeground(Color.WHITE);
-        Khane.setForeground(Color.WHITE);
-        
+
+                
         
 // Baraye Dokme Ha Yek  Ezafe Mikonam     
 
