@@ -27,10 +27,12 @@ public class EASYpage2 extends JFrame{ // بجاي پنل از فريم استف
         five = new JButton("5 x 5");    
         home = new JButton("برگشت");
         getContentPane().setBackground(new Color(41, 52, 74)); 
-        three.setBounds(180,100,100,100);
-        four.setBounds(180,210,100,100);
-        five.setBounds(180,320,100,100);
-        home.setBounds(180,440,100,100);
+        three.setBounds(67,150,150,50);
+        four.setBounds(267,150,150,50);
+        five.setBounds(267,350,150,50);
+        home.setBounds(67,350,150,50);
+        home.setFont(new Font("homa ", Font.BOLD, 25));
+
         
         three.setBackground(new Color(0,160,96));
         four.setBackground(new Color(0,160,96));
