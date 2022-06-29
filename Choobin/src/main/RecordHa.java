@@ -34,7 +34,10 @@ public class RecordHa extends  JFrame{
                     Recordha=new JTable(BaghiyeRadifHa,RadifeAval);
                     
 // Andaze Va Mokhtasate Dokmeha
-                    Khane.setBounds(200,500,100,100);
+                    Khane.setBounds(200,500,150,50);
+            
+// Taghire Font Va Andaze va Style Dokme ha             
+                    Khane.setFont(new Font("homa", Font.BOLD, 25));
                     
 // Halate Focus Ra Az Dokmeha Bar Midarad                 
                     Khane.setFocusable(false);                    
