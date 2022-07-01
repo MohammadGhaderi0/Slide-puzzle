@@ -148,7 +148,7 @@ public class game3x3easy extends JFrame{
         start = new JButton("شروع");
         
         
-        MacaneDorost()
+        MacaneDorost();
         add(btn1);
         add(btn2);
         add(btn3);
@@ -191,7 +191,7 @@ public class game3x3easy extends JFrame{
         });
         btn3.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn3, btn4);
+                move(btn3, btn6);
                 move(btn3, btn2);
                 MacaneDorost();
                         }
@@ -201,7 +201,7 @@ public class game3x3easy extends JFrame{
                 move(btn4, btn5);
                 move(btn4, btn1);
                 move(btn4, btn7);
-                MacaneDorost()
+                MacaneDorost();
                         }
         });
         btn5.addActionListener(new ActionListener(){
