@@ -57,9 +57,44 @@ public class game3x3easy extends JFrame{
 
     
     public void MacaneDorost(){
+        
+         if (("1"==btn1.getText())){             
+                    btn1.setBackground(new Color(110, 200, 74));
+          }else{btn1.setBackground(new Color(250, 200, 0));}
+         if("2"==btn2.getText()){
+                    btn2.setBackground(new Color(110, 200, 74));
+          }else{btn2.setBackground(new Color(250, 200, 0)); }
+ 
+        if("3"==btn3.getText()){                   
+                    btn3.setBackground(new Color(110, 200, 74));
+         }else{btn3.setBackground(new Color(250, 200, 0));}
+        
+        if("4"==btn4.getText()){                   
+                    btn4.setBackground(new Color(110, 200, 74));
+         }else{btn4.setBackground(new Color(250, 200, 0));}
+        
+         if("5"==btn5.getText()){                   
+                    btn5.setBackground(new Color(110, 200, 74));
+         }else{btn5.setBackground(new Color(250, 200, 0));}
+         
+         if("6"==btn6.getText()){                   
+                    btn6.setBackground(new Color(110, 200, 74));
+         }else{btn6.setBackground(new Color(250, 200, 0));}
+         
+          if("7"==btn7.getText()){                   
+                    btn7.setBackground(new Color(110, 200, 74));
+         }else{btn7.setBackground(new Color(250, 200, 0));}
+          
+         if("8"==btn8.getText()){                   
+                    btn8.setBackground(new Color(110, 200, 74));
+         }else{btn8.setBackground(new Color(250, 200, 0));}
+        
+        
+         btn9.setBackground(new Color(250, 200, 0));
+
     
      if (("1"==btn1.getText())&&("2"==btn2.getText())&&("3"==btn3.getText())&&("4"==btn4.getText())&&("5"==btn5.getText())&&("6"==btn6.getText())&&("7"==btn7.getText())&&("8"==btn8.getText())&&(""==btn9.getText())) {
-JOptionPane.showMessageDialog(null, "تو بردي توخيلي خوبي");
+            JOptionPane.showMessageDialog(null, "تو بردي توخيلي خوبي");
         } 
     
     }
