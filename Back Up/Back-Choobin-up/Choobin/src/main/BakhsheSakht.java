@@ -12,6 +12,7 @@ public class BakhsheSakht extends JFrame{
         public JButton ChaharDarChahar;
         public JButton PanjDarPanj;
         public JButton Khane;
+        
 
         public BakhsheSakht(){
         
@@ -33,6 +34,7 @@ public class BakhsheSakht extends JFrame{
         Khane = new JButton("برگشت");  
         
         
+        
         getContentPane().setBackground(new Color(41, 52, 74));
         
 // Andaze Va Mokhtasate Dokmeha        
@@ -40,6 +42,7 @@ public class BakhsheSakht extends JFrame{
         ChaharDarChahar.setBounds(267,150,150,50);
         PanjDarPanj.setBounds(267,350,150,50);
         Khane.setBounds(67,350,150,50);
+        
                 
 // Taghire Font Va Andaze va Style Dokme ha             
         Khane.setFont(new Font("homa", Font.BOLD, 25));
@@ -69,7 +72,8 @@ public class BakhsheSakht extends JFrame{
         add(SeDarSe);        
         add(ChaharDarChahar);
         add(PanjDarPanj);       
-        add(Khane);       
+        add(Khane); 
+        
         
 // Laye Bandie Panel
         setLayout(null); 
@@ -123,5 +127,6 @@ public class BakhsheSakht extends JFrame{
                 setVisible(false);
          }
         });
+        
     }
 }

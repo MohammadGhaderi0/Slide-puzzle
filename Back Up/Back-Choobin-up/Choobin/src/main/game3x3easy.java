@@ -5,7 +5,6 @@ import java.awt.Button;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
 import java.util.Random;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -22,104 +21,41 @@ public class game3x3easy extends JFrame{
             button1.setText("");
         }
 }
-    
-    
-    
-    public void TabeyeRandomKardaneJayeDokmehaBaZadaneDokmeRestart(){
-    
-    
-ArrayList<String > table = new ArrayList<String>();
+    public void shuffle(int []array){
+        Random rand = new Random();
+    int r = 0;
+    int count = 0;
+    boolean fill;
 
-table.add("80 100");
-table.add("80 210");
-table.add("80 320");
-table.add("190 100");
-table.add("190 210");
-table.add("190 320");
-table.add("300 100");
-table.add("300 210");
-table.add("300 320");
-  
-      
-        int AdadeYek=RandomKardaneJayeDokmeha.nextInt(8);
-        String AdadeOne = table.get(AdadeYek);
-        table.remove(AdadeOne);
-        String[] MokhtasateAdadeYek = AdadeOne.split(" ");
-        int MokhtasateXAdadeYek =Integer.parseInt(MokhtasateAdadeYek[0]) ;
-        int MokhtasateYAdadeYek =Integer.parseInt(MokhtasateAdadeYek[1]) ; 
-         
-        int AdadeDo=RandomKardaneJayeDokmeha.nextInt(7);
-        String AdadeTwo = table.get(AdadeDo);
-        table.remove(AdadeTwo);
-        String[] MokhtasateAdadeDo = AdadeTwo.split(" ");
-        int MokhtasateXAdadeDo =Integer.parseInt(MokhtasateAdadeDo[0]) ;
-        int MokhtasateYAdadeDo =Integer.parseInt(MokhtasateAdadeDo[1]) ; 
-        
-        int AdadeSe=RandomKardaneJayeDokmeha.nextInt(6);
-        String AdadeThree = table.get(AdadeSe);
-        table.remove(AdadeThree);
-        String[] MokhtasateAdadeSe= AdadeThree.split(" ");
-        int MokhtasateXAdadeSe =Integer.parseInt(MokhtasateAdadeSe[0]) ;
-        int MokhtasateYAdadeSe =Integer.parseInt(MokhtasateAdadeSe[1]) ; 
-   
-        int AdadeChahar=RandomKardaneJayeDokmeha.nextInt(5);
-        String Adadefour = table.get(AdadeChahar);
-        table.remove(Adadefour);
-        String[] MokhtasateAdadeChahar = Adadefour.split(" ");
-        int MokhtasateXAdadeChahar =Integer.parseInt(MokhtasateAdadeChahar[0]) ;
-        int MokhtasateYAdadeChahar =Integer.parseInt(MokhtasateAdadeChahar[1]) ; 
-        
-        int AdadePanj=RandomKardaneJayeDokmeha.nextInt(4);
-        String AdadeFive = table.get(AdadePanj);
-        table.remove(AdadeFive);
-        String[] MokhtasateAdadePanj = AdadeFive.split(" ");
-        int MokhtasateXAdadePanj =Integer.parseInt(MokhtasateAdadePanj[0]) ;
-        int MokhtasateYAdadePanj =Integer.parseInt(MokhtasateAdadePanj[1]) ; 
-        
-        int AdadeShesh=RandomKardaneJayeDokmeha.nextInt(3);
-        String AdadeSix = table.get(AdadeShesh);
-        table.remove(AdadeSix);
-        String[] MokhtasateAdadeShesh = AdadeSix.split(" ");
-        int MokhtasateXAdadeShesh =Integer.parseInt(MokhtasateAdadeShesh[0]) ;
-        int MokhtasateYAdadeShesh =Integer.parseInt(MokhtasateAdadeShesh[1]) ; 
+    int low = 1;
+    int high = 9;
+    int range = high - low + 1;
 
-        
-        int AdadeHaft=RandomKardaneJayeDokmeha.nextInt(2);
-        String AdadeSeven = table.get(AdadeHaft);
-        table.remove(AdadeSeven);
-        String[] MokhtasateAdadeHaft = AdadeSeven.split(" ");
-        int MokhtasateXAdadeHaft =Integer.parseInt(MokhtasateAdadeHaft[0]) ;
-        int MokhtasateYAdadeHaft =Integer.parseInt(MokhtasateAdadeHaft[1]) ; 
-  
-        int AdadeHasht=RandomKardaneJayeDokmeha.nextInt(1);
-        String AdadeEight = table.get(AdadeHasht);
-        table.remove(AdadeEight);
-        String[] MokhtasateAdadeHasht= AdadeEight.split(" ");
-        int MokhtasateXAdadeHasht =Integer.parseInt(MokhtasateAdadeHasht[0]) ;
-        int MokhtasateYAdadeHasht =Integer.parseInt(MokhtasateAdadeHasht[1]) ; 
-        
-        String AdadeEmpty = table.get(0); 
-        String[] MokhtasateAdadeEmpty = AdadeEmpty.split(" ");
-        int MokhtasateXAdadeEmpty =Integer.parseInt(MokhtasateAdadeEmpty[0]) ;
-        int MokhtasateYAdadeEmpty =Integer.parseInt(MokhtasateAdadeEmpty[1]) ; 
+    do
+    {
+      fill = true;
+      r = rand.nextInt(10) + 1;
 
-        
-        btn1.setBounds(MokhtasateXAdadeYek,MokhtasateYAdadeYek,70,70);        
-        btn2.setBounds(MokhtasateXAdadeDo,MokhtasateYAdadeDo,70,70);
-        btn3.setBounds(MokhtasateXAdadeSe,MokhtasateYAdadeSe,70,70);
-        btn4.setBounds(MokhtasateXAdadeChahar, MokhtasateYAdadeChahar, 70, 70);
-        btn5.setBounds(MokhtasateXAdadePanj,MokhtasateYAdadePanj,70,70);
-        btn6.setBounds(MokhtasateXAdadeShesh,MokhtasateYAdadeShesh,70,70);
-        btn7.setBounds(MokhtasateXAdadeHaft,MokhtasateYAdadeHaft,70,70);
-        btn8.setBounds(MokhtasateXAdadeHasht,MokhtasateYAdadeHasht,70,70);
-        btn9.setBounds(MokhtasateXAdadeEmpty,MokhtasateYAdadeEmpty,70,70);
-       
-    
-    
-    }
+       for (int i = 0; i < array.length; i++)//loop for random number between 1 to 10
+       {          
+          if (array[i] == r)
+          {
+             fill = false;
+          }
+       }
+
+       if (fill == true)
+       {
+          array[count] = r;
+          count++;
+       }
+     }
+     while (count < 9);
+
+      }
     
 
-    public Random RandomKardaneJayeDokmeha = new Random();
+    
     public JButton btn1;
     public JButton btn2;
     public JButton btn3;
@@ -130,9 +66,7 @@ table.add("300 320");
     public JButton btn8;
     public JButton btn9;
     public JButton back;
-    public JButton Restart;
-
-
+    public JButton start;
     
     
     public game3x3easy(){
@@ -165,11 +99,9 @@ table.add("300 320");
         btn8 =new JButton("8");
         btn9 =new JButton("");
         back = new JButton("برگشت");
-        Restart = new JButton("از نو");
-
-        TabeyeRandomKardaneJayeDokmehaBaZadaneDokmeRestart();
-        back.setBounds(320,570,100,50);
-        Restart.setBounds(100,570,100,50);
+        start = new JButton("شروع");
+        
+        
         
         add(btn1);
         add(btn2);
@@ -181,10 +113,19 @@ table.add("300 320");
         add(btn8);
         add(btn9);
         add(back);
-        add(Restart);
-
-       
-
+        add(start);
+        
+        btn1.setBounds(80,100,100,100);
+        btn2.setBounds(190,100,100,100);
+        btn3.setBounds(300,100,100,100);
+        btn4.setBounds(80, 210, 100, 100);
+        btn5.setBounds(190,210,100,100);
+        btn6.setBounds(300,210,100,100);
+        btn7.setBounds(80,320,100,100);
+        btn8.setBounds(190,320,100,100);
+        btn9.setBounds(300,320,100,100);
+        back.setBounds(320,570,100,50);
+        start.setBounds(200,570,100,50);
         
         
         btn1.addActionListener(new ActionListener(){
@@ -257,15 +198,57 @@ table.add("300 320");
                 }
                         }
         });
-        
-        
-        
-        Restart.addActionListener(new ActionListener(){
+        start.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                                TabeyeRandomKardaneJayeDokmehaBaZadaneDokmeRestart();
+                Random rand = new Random();
+        int[] array = new int[8];
 
+        int r = 0;
+        int count = 0;
+        boolean fill;
+
+        int low = 1;
+        int high = 8;
+        int range = high - low + 1;
+
+        do
+        {
+          fill = true;
+          r = rand.nextInt(8) + 1;
+
+           for (int i = 0; i < array.length; i++)//loop for random number between 1 to 10
+           {          
+              if (array[i] == r)
+              {
+                 fill = false;
+              }
+           }
+
+           if (fill == true)
+           {
+              array[count] = r;
+              count++;
+           }
+         }
+         while (count < 8);
+        
+        
+        btn1.setText(Integer.toString(array[0]));
+        btn2.setText(Integer.toString(array[1]));
+        btn3.setText(Integer.toString(array[2]));    
+        btn4.setText(Integer.toString(array[3]));
+        btn5.setText(Integer.toString(array[4]));
+        btn6.setText(Integer.toString(array[5]));         
+        btn7.setText(Integer.toString(array[6]));
+        btn8.setText(Integer.toString(array[7]));
+        btn9.setText("");         
+                
+                
+                
                         }
         });
+        
+        
         
       
     
