@@ -56,6 +56,17 @@ public class game3x3easy extends JFrame{
     
 
     
+    public void MacaneDorost(){
+    
+     if (("1"==btn1.getText())&&("2"==btn2.getText())&&("3"==btn3.getText())&&("4"==btn4.getText())&&("5"==btn5.getText())&&("6"==btn6.getText())&&("7"==btn7.getText())&&("8"==btn8.getText())&&(""==btn9.getText())) {
+JOptionPane.showMessageDialog(null, "تو بردي توخيلي خوبي");
+        } 
+    
+    }
+    
+    
+    
+    
     public JButton btn1;
     public JButton btn2;
     public JButton btn3;
@@ -102,7 +113,7 @@ public class game3x3easy extends JFrame{
         start = new JButton("شروع");
         
         
-        
+        MacaneDorost()
         add(btn1);
         add(btn2);
         add(btn3);
@@ -132,6 +143,7 @@ public class game3x3easy extends JFrame{
             public void actionPerformed(ActionEvent e){
                 move(btn1, btn4);
                 move(btn1, btn2);
+                MacaneDorost();
                         }
         });
         btn2.addActionListener(new ActionListener(){
@@ -139,12 +151,14 @@ public class game3x3easy extends JFrame{
                 move(btn2, btn3);
                 move(btn2, btn5);
                 move(btn2, btn1);
+                MacaneDorost();
                         }
         });
         btn3.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 move(btn3, btn4);
                 move(btn3, btn2);
+                MacaneDorost();
                         }
         });
         btn4.addActionListener(new ActionListener(){
@@ -152,6 +166,7 @@ public class game3x3easy extends JFrame{
                 move(btn4, btn5);
                 move(btn4, btn1);
                 move(btn4, btn7);
+                MacaneDorost()
                         }
         });
         btn5.addActionListener(new ActionListener(){
@@ -160,6 +175,7 @@ public class game3x3easy extends JFrame{
                 move(btn5, btn4);
                 move(btn5, btn6);
                 move(btn5, btn8);
+                MacaneDorost();
                         }
         });
         btn6.addActionListener(new ActionListener(){
@@ -167,12 +183,14 @@ public class game3x3easy extends JFrame{
                 move(btn6, btn3);
                 move(btn6, btn5);
                 move(btn6, btn9);
+                MacaneDorost();
                         }
         });
         btn7.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 move(btn7, btn8);
                 move(btn7, btn4);
+                MacaneDorost();
                         }
         });
         btn8.addActionListener(new ActionListener(){
@@ -180,12 +198,14 @@ public class game3x3easy extends JFrame{
                 move(btn8, btn9);
                 move(btn8, btn7);
                 move(btn8, btn5);
+                MacaneDorost();
                         }
         });
         btn9.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 move(btn9, btn6);
                 move(btn9, btn8);
+                MacaneDorost();
                         }
         });
         back.addActionListener(new ActionListener(){
