@@ -14,90 +14,7 @@ import javax.swing.JOptionPane;
 
 public class game3x3easy extends JFrame{
     
-    public void move(JButton button1,JButton button2){
-        if (button2.getText() == "")
-        {
-            button2.setText(button1.getText());
-            button1.setText("");
-        }
-}
-    public void shuffle(int []array){
-        Random rand = new Random();
-    int r = 0;
-    int count = 0;
-    boolean fill;
 
-    int low = 1;
-    int high = 9;
-    int range = high - low + 1;
-
-    do
-    {
-      fill = true;
-      r = rand.nextInt(10) + 1;
-
-       for (int i = 0; i < array.length; i++)//loop for random number between 1 to 10
-       {          
-          if (array[i] == r)
-          {
-             fill = false;
-          }
-       }
-
-       if (fill == true)
-       {
-          array[count] = r;
-          count++;
-       }
-     }
-     while (count < 9);
-
-      }
-    
-
-    
-    public void MacaneDorost(){
-        
-         if (("1"==btn1.getText())){             
-                    btn1.setBackground(new Color(110, 200, 74));
-          }else{btn1.setBackground(new Color(250, 200, 0));}
-         if("2"==btn2.getText()){
-                    btn2.setBackground(new Color(110, 200, 74));
-          }else{btn2.setBackground(new Color(250, 200, 0)); }
- 
-        if("3"==btn3.getText()){                   
-                    btn3.setBackground(new Color(110, 200, 74));
-         }else{btn3.setBackground(new Color(250, 200, 0));}
-        
-        if("4"==btn4.getText()){                   
-                    btn4.setBackground(new Color(110, 200, 74));
-         }else{btn4.setBackground(new Color(250, 200, 0));}
-        
-         if("5"==btn5.getText()){                   
-                    btn5.setBackground(new Color(110, 200, 74));
-         }else{btn5.setBackground(new Color(250, 200, 0));}
-         
-         if("6"==btn6.getText()){                   
-                    btn6.setBackground(new Color(110, 200, 74));
-         }else{btn6.setBackground(new Color(250, 200, 0));}
-         
-          if("7"==btn7.getText()){                   
-                    btn7.setBackground(new Color(110, 200, 74));
-         }else{btn7.setBackground(new Color(250, 200, 0));}
-          
-         if("8"==btn8.getText()){                   
-                    btn8.setBackground(new Color(110, 200, 74));
-         }else{btn8.setBackground(new Color(250, 200, 0));}
-        
-        
-         btn9.setBackground(new Color(250, 200, 0));
-
-    
-     if (("1"==btn1.getText())&&("2"==btn2.getText())&&("3"==btn3.getText())&&("4"==btn4.getText())&&("5"==btn5.getText())&&("6"==btn6.getText())&&("7"==btn7.getText())&&("8"==btn8.getText())&&(""==btn9.getText())) {
-            JOptionPane.showMessageDialog(null, "تو بردي توخيلي خوبي");
-        } 
-    
-    }
     
     
     
@@ -148,7 +65,6 @@ public class game3x3easy extends JFrame{
         start = new JButton("شروع");
         
         
-        MacaneDorost();
         add(btn1);
         add(btn2);
         add(btn3);
@@ -172,7 +88,8 @@ public class game3x3easy extends JFrame{
         btn9.setBounds(300,320,100,100);
         back.setBounds(320,570,100,50);
         start.setBounds(200,570,100,50);
-        
+                MacaneDorost();
+
         
         btn1.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
@@ -297,15 +214,121 @@ public class game3x3easy extends JFrame{
         btn7.setText(Integer.toString(array[6]));
         btn8.setText(Integer.toString(array[7]));
         btn9.setText("");         
-                
-                
-                
+                MacaneDorost();
                         }
-        });
+        });   
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        public void move(JButton button1,JButton button2){
+        if (button2.getText() == "")
+        {
+            button2.setText(button1.getText());
+            button1.setText("");
+        }
+}
+    public void shuffle(int []array){
+        Random rand = new Random();
+    int r = 0;
+    int count = 0;
+    boolean fill;
+
+    int low = 1;
+    int high = 9;
+    int range = high - low + 1;
+
+    do
+    {
+      fill = true;
+      r = rand.nextInt(10) + 1;
+
+       for (int i = 0; i < array.length; i++)//loop for random number between 1 to 10
+       {          
+          if (array[i] == r)
+          {
+             fill = false;
+          }
+       }
+
+       if (fill == true)
+       {
+          array[count] = r;
+          count++;
+       }
+     }
+     while (count < 9);
+    
+    MacaneDorost();
+
+      }
+    
+
+    
+    public void MacaneDorost(){
+        
+         if (("1"==btn1.getText())){             
+                    btn1.setBackground(new Color(110, 200, 74));
+          }else{btn1.setBackground(new Color(250, 200, 0));}
+         if("2"==btn2.getText()){
+                    btn2.setBackground(new Color(110, 200, 74));
+          }else{btn2.setBackground(new Color(250, 200, 0)); }
+ 
+        if("3"==btn3.getText()){                   
+                    btn3.setBackground(new Color(110, 200, 74));
+         }else{btn3.setBackground(new Color(250, 200, 0));}
+        
+        if("4"==btn4.getText()){                   
+                    btn4.setBackground(new Color(110, 200, 74));
+         }else{btn4.setBackground(new Color(250, 200, 0));}
+        
+         if("5"==btn5.getText()){                   
+                    btn5.setBackground(new Color(110, 200, 74));
+         }else{btn5.setBackground(new Color(250, 200, 0));}
+         
+         if("6"==btn6.getText()){                   
+                    btn6.setBackground(new Color(110, 200, 74));
+         }else{btn6.setBackground(new Color(250, 200, 0));}
+         
+          if("7"==btn7.getText()){                   
+                    btn7.setBackground(new Color(110, 200, 74));
+         }else{btn7.setBackground(new Color(250, 200, 0));}
+          
+         if("8"==btn8.getText()){                   
+                    btn8.setBackground(new Color(110, 200, 74));
+         }else{btn8.setBackground(new Color(250, 200, 0));}
         
         
-        
-      
+         btn9.setBackground(new Color(250, 200, 0));
+
+    
+     if (("1"==btn1.getText())&&("2"==btn2.getText())&&("3"==btn3.getText())&&("4"==btn4.getText())&&("5"==btn5.getText())&&("6"==btn6.getText())&&("7"==btn7.getText())&&("8"==btn8.getText())&&(""==btn9.getText())) {
+            JOptionPane.showMessageDialog(null, "تو بردي توخيلي خوبي");
+        } 
     
     }
     
