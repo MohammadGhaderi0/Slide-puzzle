@@ -213,7 +213,7 @@ HideTextOfButtom();
                     btn1.setForeground(new Color(110, 200, 74));
           }else {btn1.setForeground(new Color(250, 200, 0));}
      
-         if((btn8.getText()!="")&&(2==Integer.parseInt(btn2.getText()))){
+         if((btn2.getText()!="")&&(2==Integer.parseInt(btn2.getText()))){
                     btn2.setForeground(new Color(110, 200, 74));
           }else{btn2.setForeground(new Color(250, 200, 0)); }
  
@@ -329,7 +329,7 @@ HideTextOfButtom();
                     btn1.setBackground(new Color(110, 200, 74));
           }else {btn1.setBackground(new Color(250, 200, 0));}
      
-         if((btn8.getText()!="")&&(2==Integer.parseInt(btn2.getText()))){
+         if((btn2.getText()!="")&&(2==Integer.parseInt(btn2.getText()))){
                     btn2.setBackground(new Color(110, 200, 74));
           }else{btn2.setBackground(new Color(250, 200, 0)); }
  
