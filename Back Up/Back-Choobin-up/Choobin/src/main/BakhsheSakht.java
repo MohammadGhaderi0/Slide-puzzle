@@ -88,7 +88,7 @@ public class BakhsheSakht extends JFrame{
         SeDarSe.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 
-                new EASYpage2();
+                new Sakht3Dar3();
 
 // Safheye Ghabli ra Mibandad         
                 setVisible(false);
