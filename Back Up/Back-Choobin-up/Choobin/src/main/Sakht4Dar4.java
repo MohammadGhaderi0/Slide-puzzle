@@ -93,7 +93,7 @@ public class Sakht4Dar4 extends JFrame{
 
                 
         MacaneDorost();
-        HideTextOfButtom();
+        MakhfiKardaneDokmeha();
 
         
         add(btn1);
@@ -121,7 +121,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn1, btn2);
                 move(btn1, btn5);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                         }
@@ -132,7 +132,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn2, btn3);
                 move(btn2, btn6);                
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                         }
@@ -143,7 +143,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn3, btn4);
                 move(btn3, btn7);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                         }
@@ -153,7 +153,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn4, btn8);
                 move(btn4, btn3);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                                         }
@@ -164,7 +164,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn5, btn6);
                 move(btn5, btn9);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                         }
@@ -176,7 +176,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn6, btn7);
                 move(btn6, btn10);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                         }
@@ -188,7 +188,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn7, btn8);
                 move(btn7, btn11);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                         }
@@ -199,7 +199,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn8, btn7);
                 move(btn8, btn12);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                         }
@@ -210,7 +210,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn9, btn10);
                 move(btn9, btn13);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                         }
@@ -222,7 +222,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn10, btn11);
                 move(btn10, btn14);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                         }
@@ -234,7 +234,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn11, btn7);
                 move(btn11, btn15);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                         }
@@ -245,7 +245,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn12, btn11);
                 move(btn12, btn16);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                         }
@@ -255,7 +255,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn13, btn9);
                 move(btn13, btn14);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                         }
@@ -266,7 +266,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn14, btn13);
                 move(btn14, btn15);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                         }
@@ -277,7 +277,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn15, btn16);
                 move(btn15, btn11);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
 
                         }
@@ -287,7 +287,7 @@ public class Sakht4Dar4 extends JFrame{
                 move(btn16, btn15);
                 move(btn16, btn12);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
                         }
         });
@@ -305,7 +305,7 @@ public class Sakht4Dar4 extends JFrame{
             public void actionPerformed(ActionEvent e){
                 JayeRandomDokme();
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
                         }
         });
@@ -491,7 +491,7 @@ public class Sakht4Dar4 extends JFrame{
     
     
     
-        public void HideTextOfButtom(){
+        public void MakhfiKardaneDokmeha(){
     
                  System.out.println(btn8.getText());
                  System.out.println(btn1.getText());
@@ -528,7 +528,7 @@ public class Sakht4Dar4 extends JFrame{
          if((btn8.getText()!="")&&(8==Integer.parseInt(btn8.getText()))){                 
                     btn8.setForeground(new Color(110, 200, 74));
          }else{btn8.setForeground(new Color(250, 200, 0));}
-    }
+    
     
              if((btn9.getText()!="")&&(9==Integer.parseInt(btn9.getText()))){                 
                     btn9.setForeground(new Color(110, 200, 74));
@@ -557,7 +557,7 @@ public class Sakht4Dar4 extends JFrame{
          if((btn15.getText()!="")&&(15==Integer.parseInt(btn15.getText()))){                 
                     btn15.setForeground(new Color(110, 200, 74));
          }else{btn15.setForeground(new Color(250, 200, 0));}
-    
+    }
     }
     
     
