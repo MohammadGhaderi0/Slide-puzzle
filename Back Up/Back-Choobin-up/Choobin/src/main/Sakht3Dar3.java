@@ -78,7 +78,7 @@ public class Sakht3Dar3 extends JFrame{
         back.setBounds(320,570,100,50);
         start.setBounds(200,570,100,50);
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
         add(btn1);
         add(btn2);
         add(btn3);
@@ -97,7 +97,7 @@ public class Sakht3Dar3 extends JFrame{
             public void actionPerformed(ActionEvent e){
                 move(btn1, btn4);
                 move(btn1, btn2);
-HideTextOfButtom();
+MakhfiKardaneDokmeha();
                 MacaneDorost();
                         }
         });
@@ -106,7 +106,7 @@ HideTextOfButtom();
                 move(btn2, btn3);
                 move(btn2, btn5);
                 move(btn2, btn1);
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
                 MacaneDorost();
                         }
@@ -115,7 +115,7 @@ HideTextOfButtom();
             public void actionPerformed(ActionEvent e){
                 move(btn3, btn6);
                 move(btn3, btn2);
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
 
                 MacaneDorost();
                         }
@@ -125,7 +125,8 @@ HideTextOfButtom();
                 move(btn4, btn5);
                 move(btn4, btn1);
                 move(btn4, btn7);
-                MacaneDorost();HideTextOfButtom();
+                MacaneDorost();
+                MakhfiKardaneDokmeha();
 
                         }
         });
@@ -135,7 +136,8 @@ HideTextOfButtom();
                 move(btn5, btn4);
                 move(btn5, btn6);
                 move(btn5, btn8);
-                MacaneDorost();HideTextOfButtom();
+                MacaneDorost();
+                MakhfiKardaneDokmeha();
 
                         }
         });
@@ -144,7 +146,8 @@ HideTextOfButtom();
                 move(btn6, btn3);
                 move(btn6, btn5);
                 move(btn6, btn9);
-                MacaneDorost();HideTextOfButtom();
+                MacaneDorost();
+                MakhfiKardaneDokmeha();
 
                         }
         });
@@ -152,7 +155,8 @@ HideTextOfButtom();
             public void actionPerformed(ActionEvent e){
                 move(btn7, btn8);
                 move(btn7, btn4);
-                MacaneDorost();HideTextOfButtom();
+                MacaneDorost();
+                MakhfiKardaneDokmeha();
 
                         }
         });
@@ -161,7 +165,8 @@ HideTextOfButtom();
                 move(btn8, btn9);
                 move(btn8, btn7);
                 move(btn8, btn5);
-                MacaneDorost();HideTextOfButtom();
+                MacaneDorost();
+                MakhfiKardaneDokmeha();
 
                         }
         });
@@ -169,7 +174,8 @@ HideTextOfButtom();
             public void actionPerformed(ActionEvent e){
                 move(btn9, btn6);
                 move(btn9, btn8);
-                MacaneDorost();HideTextOfButtom();
+                MacaneDorost();
+                MakhfiKardaneDokmeha();
 
                         }
         });
@@ -187,7 +193,7 @@ HideTextOfButtom();
             public void actionPerformed(ActionEvent e){
                 JayeRandomDokme();
                 MacaneDorost();
-                HideTextOfButtom();
+                MakhfiKardaneDokmeha();
                         }
         });   
     }
@@ -203,7 +209,7 @@ HideTextOfButtom();
     
     
     
-    public void HideTextOfButtom(){
+    public void MakhfiKardaneDokmeha(){
     
                  System.out.println(btn8.getText());
                  System.out.println(btn1.getText());
