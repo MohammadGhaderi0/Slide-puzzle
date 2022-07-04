@@ -99,7 +99,7 @@ public class BakhsheSakht extends JFrame{
         ChaharDarChahar.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 
-                new Sakht3Dar3();
+                new Sakht4Dar4();
 
 
 // Safheye Ghabli ra Mibandad         
