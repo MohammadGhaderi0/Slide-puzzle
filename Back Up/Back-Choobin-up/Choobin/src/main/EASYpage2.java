@@ -74,5 +74,12 @@ public class EASYpage2 extends JFrame{ // بجاي پنل از فريم استف
          }
         });
         
+         five.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+                new Asan5Dar5();                          
+                setVisible(false);
+         }
+        });
+        
     }}
 
