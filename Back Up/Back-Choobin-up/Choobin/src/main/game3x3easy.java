@@ -3,18 +3,64 @@ package main;
 
 import java.awt.Button;
 import java.awt.Color;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Random;
+import javax.swing.Action;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
-
+import javax.swing.Timer;
 
 
 public class game3x3easy extends DokmeHa{
+    int elapsedTime = 0;
+	int seconds =0;
+	int minutes =0;
+	int hours =0;
+	boolean started = false;
+        String seconds_string = String.format("%02d", seconds);
+	String minutes_string = String.format("%02d", minutes);
+	String hours_string = String.format("%02d", hours);
+        
     
+    Timer timer = new Timer(1000, new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            elapsedTime=elapsedTime+1000;
+	    hours = (elapsedTime/3600000);
+	    minutes = (elapsedTime/60000) % 60;
+	    seconds = (elapsedTime/1000) % 60;
+            seconds_string = String.format("%02d", seconds);
+	    minutes_string = String.format("%02d", minutes);
+	    hours_string = String.format("%02d", hours);
+	    timeLabel.setText(hours_string+":"+minutes_string+":"+seconds_string);
+        }
+    });
+    void start() {
+		timer.start();
+	}
+	
+	void stop() {
+		timer.stop();
+	}
+	
+	void reset() {
+		timer.stop();
+		elapsedTime=0;
+		seconds =0;
+		minutes=0;
+		hours=0;
+		seconds_string = String.format("%02d", seconds);
+		minutes_string = String.format("%02d", minutes);
+		hours_string = String.format("%02d", hours);
+		timeLabel.setText(hours_string+":"+minutes_string+":"+seconds_string);
+	}
+    
+    public JLabel timeLabel;
 
     public game3x3easy(){
         
@@ -30,9 +76,14 @@ public class game3x3easy extends DokmeHa{
         btn7.setBounds(87,310,95,95);
         btn8.setBounds(192,310,95,95);
         btn9.setBounds(297,310,95,95);
-
-
-                MacaneDorost();
+        
+        
+        timeLabel = new JLabel();
+        timeLabel.setBounds(170,400,200,100);
+        timeLabel.setForeground(Color.WHITE);
+        timeLabel.setFont(new Font("Verdana",Font.PLAIN,30));
+        add(timeLabel);
+        MacaneDorost();
    
 
 
@@ -125,11 +176,45 @@ public class game3x3easy extends DokmeHa{
                 }
                         }
         });
-                  restart.addActionListener(new ActionListener(){
+        start.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 JayeRandomDokme();
                 MacaneDorost();
+                start.setVisible(false);
+                if (e.getSource()==start){
+                    started=true;
+		    start();
+                    }
+                else{
+                    
+                }
+                          
                         }
+        });
+        stop.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+               started=false;
+		stop.setText("ادامه");
+		stop();
+                if (e.getSource() == stop&& "ادامه".equals(stop.getText())){
+                    started=true;
+                    start();
+                    
+                }
+            }
+        });
+        
+        
+        
+        restart.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                JayeRandomDokme();
+                MacaneDorost();
+                started=false;
+	        start.setText("شروع");
+		reset();
+                start();
+            }
         });
 
     }
@@ -246,7 +331,14 @@ public class game3x3easy extends DokmeHa{
      if (("1"==btn1.getText())&&("2"==btn2.getText())&&("3"==btn3.getText())&&("4"==btn4.getText())&&("5"==btn5.getText())&&("6"==btn6.getText())&&("7"==btn7.getText())&&("8"==btn8.getText())&&(""==btn9.getText())) {
          //JOptionPane.showMessageDialog(null, "تو بردي توخيلي خوبي");
         } 
+     
         
+     
+        
+     
+     
+     
+     
     }
     
 }

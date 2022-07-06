@@ -12,6 +12,7 @@ public class EASYpage2 extends JFrame{ // بجاي پنل از فريم استف
     public JButton four;
     public JButton five;
     public JButton home;
+    
 
     public EASYpage2(){
         super("15 Puzzle"); // نام تايتل ما
@@ -32,7 +33,7 @@ public class EASYpage2 extends JFrame{ // بجاي پنل از فريم استف
         five.setBounds(267,350,150,50);
         home.setBounds(67,350,150,50);
         home.setFont(new Font("homa ", Font.BOLD, 25));
-
+        
         
         three.setBackground(new Color(0,160,96));
         four.setBackground(new Color(0,160,96));
@@ -52,6 +53,8 @@ public class EASYpage2 extends JFrame{ // بجاي پنل از فريم استف
         add(four);
         add(five);
         add(home);
+        
+        
         setVisible(true);
         
         home.addActionListener(new ActionListener(){
@@ -80,6 +83,10 @@ public class EASYpage2 extends JFrame{ // بجاي پنل از فريم استف
                 setVisible(false);
          }
         });
+        
+		
+		
+	
         
     }}
 

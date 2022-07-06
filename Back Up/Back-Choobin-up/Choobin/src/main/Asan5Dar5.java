@@ -371,7 +371,7 @@ public class Asan5Dar5 extends DokmeHa{
                 }
                         }
         });
-          restart.addActionListener(new ActionListener(){
+          start.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 JayeRandomDokme();
                 MacaneDorost();
