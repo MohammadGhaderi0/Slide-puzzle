@@ -13,83 +13,28 @@ import javax.swing.JOptionPane;
 
 
 
-public class Sakht3Dar3 extends JFrame{
-    
+public class Sakht3Dar3 extends DokmeHa{
 
-    
-    
-    
-    
-    public JButton btn1;
-    public JButton btn2;
-    public JButton btn3;
-    public JButton btn4;
-    public JButton btn5;
-    public JButton btn6;
-    public JButton btn7;
-    public JButton btn8;
-    public JButton btn9;
-    public JButton back;
-    public JButton start;
     
     
     public Sakht3Dar3(){
         
-        super("15 Puzzle");
 
-// Andaze Frame
-        setSize(500,700);
 
-// Miare Markaz Safhe ==> https://stackoverflow.com/questions/144892/how-to-center-a-window-in-java
-        setLocationRelativeTo(null);
-
-// Chegoonegie Baste Shodan Safhe
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
-        getContentPane().setBackground(new Color(41, 52, 74));
-        
-        setLayout(null);
-        
-        setVisible(true);
-
-        btn1 =new JButton("1");
-        btn2 =new JButton("2");
-        btn3 =new JButton("3");
-        btn4 =new JButton("4");
-        btn5 =new JButton("5");
-        btn6 =new JButton("6");
-        btn7 =new JButton("7");
-        btn8 =new JButton("8");
-        btn9 =new JButton("");
-        back = new JButton("برگشت");
-        start = new JButton("شروع");
          JayeRandomDokme();
 
 
-        btn1.setBounds(80,100,100,100);
-        btn2.setBounds(190,100,100,100);
-        btn3.setBounds(300,100,100,100);
-        btn4.setBounds(80, 210, 100, 100);
-        btn5.setBounds(190,210,100,100);
-        btn6.setBounds(300,210,100,100);
-        btn7.setBounds(80,320,100,100);
-        btn8.setBounds(190,320,100,100);
-        btn9.setBounds(300,320,100,100);
-        back.setBounds(320,570,100,50);
-        start.setBounds(200,570,100,50);
+        btn1.setBounds(80,100,95,95);
+        btn2.setBounds(80,100,95,95);
+        btn3.setBounds(80,100,95,95);
+        btn4.setBounds(80,100,95,95);
+        btn5.setBounds(80,100,95,95);
+        btn6.setBounds(80,100,95,95);
+        btn7.setBounds(80,100,95,95);
+        btn8.setBounds(80,100,95,95);
+        btn9.setBounds(80,100,95,95);
                 MacaneDorost();
                 MakhfiKardaneDokmeha();
-        add(btn1);
-        add(btn2);
-        add(btn3);
-        add(btn4);
-        add(btn5);
-        add(btn6);
-        add(btn7);
-        add(btn8);
-        add(btn9);
-        add(back);
-        add(start);
 
 
         
@@ -189,23 +134,15 @@ MakhfiKardaneDokmeha();
                 }
                         }
         });
-        start.addActionListener(new ActionListener(){
+        
+         restart.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 JayeRandomDokme();
                 MacaneDorost();
-                MakhfiKardaneDokmeha();
                         }
-        });   
+        });
+
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
