@@ -31,16 +31,16 @@ public class Developers extends JFrame{
 
         
         
-        label1.setText(":کاری‌از");
-        label2.setText("امیر‌حسین‌ حسین‌زاده‌ فخاری");
-        label3.setText("محمد قادری");
+        label1.setText("کاري از");
+        label2.setText("محمد قادري");
+        label3.setText("اميرحسين فخاري زاده");
         
-        label1.setFont(new Font("homa", Font.BOLD, 25));
-        label2.setFont(new Font("homa ", Font.BOLD, 25));
-        label3.setFont(new Font("homa ", Font.BOLD, 25));
+        label1.setFont(new Font("homa", Font.BOLD, 20));
+        label2.setFont(new Font("homa ", Font.BOLD, 20));
+        label3.setFont(new Font("homa ", Font.BOLD, 20));
         
         
-         back.setBounds(100,400,150,50);
+         back.setBounds(320,570,100,50);
          back.setFocusable(false);
          back.setFont(new Font("homa ", Font.BOLD, 25));
          back.setBackground(new Color(0,160,96));
@@ -61,9 +61,9 @@ public class Developers extends JFrame{
 
         
         
-        label1.setBounds(190,200,100,100);
-        label2.setBounds(175,220,140,100);
-        label3.setBounds(175,240,150,100);
+        label1.setBounds(200,180,100,100);
+        label2.setBounds(300,220,300,100);
+        label3.setBounds(80,220,200,100);
         
         
         label3.setForeground(Color.red);
@@ -72,7 +72,6 @@ public class Developers extends JFrame{
         
         
         lineborder = BorderFactory.createLineBorder(Color.green);
-        label2.setBorder(lineborder);
         
         
          back.addActionListener(new ActionListener(){

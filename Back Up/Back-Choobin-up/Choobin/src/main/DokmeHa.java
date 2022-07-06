@@ -65,7 +65,7 @@ public class DokmeHa extends JFrame{
         add(btn7);
         add(btn8);
         add(btn9);
-       add(back);
+        add(back);
         add(restart);
         
 
