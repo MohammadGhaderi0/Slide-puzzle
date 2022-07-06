@@ -21,15 +21,16 @@ public class game3x3easy extends DokmeHa{
 
         
         JayeRandomDokme();
-        btn1.setBounds(80,100,95,95);
-        btn2.setBounds(80,100,95,95);
-        btn3.setBounds(80,100,95,95);
-        btn4.setBounds(80,100,95,95);
-        btn5.setBounds(80,100,95,95);
-        btn6.setBounds(80,100,95,95);
-        btn7.setBounds(80,100,95,95);
-        btn8.setBounds(80,100,95,95);
-        btn9.setBounds(80,100,95,95);
+        btn1.setBounds(87,100,95,95);
+        btn2.setBounds(192,100,95,95);
+        btn3.setBounds(297,100,95,95);
+        btn4.setBounds(87,205,95,95);
+        btn5.setBounds(192,205,95,95);
+        btn6.setBounds(297,205,95,95);
+        btn7.setBounds(87,310,95,95);
+        btn8.setBounds(192,310,95,95);
+        btn9.setBounds(297,310,95,95);
+
 
                 MacaneDorost();
    
