@@ -60,31 +60,31 @@ public class Sakht5Dar5 extends DokmeHa{
    
         
         
-        btn1.setBounds(70,100,75,75);
-        btn2.setBounds(160,100,75,75);
-        btn3.setBounds(160,100,75,75);
-        btn4.setBounds(160,100,75,75);
-        btn5.setBounds(70,100,75,75);
-        btn6.setBounds(160,100,75,75);
-        btn7.setBounds(160,100,75,75);
-        btn8.setBounds(160,100,75,75);
-        btn9.setBounds(70,100,75,75);
-        btn10.setBounds(160,100,75,75);
-        btn11.setBounds(160,100,75,75);
-        btn12.setBounds(160,100,75,75);
-        btn13.setBounds(160,100,75,75);
-        btn14.setBounds(160,100,75,75);
-        btn15.setBounds(160,100,75,75);
-        btn16.setBounds(160,100,75,75);
-        btn17.setBounds(160,100,75,75);
-        btn18.setBounds(160,100,75,75);
-        btn19.setBounds(160,100,75,75);
-        btn20.setBounds(160,100,75,75);
-        btn21.setBounds(160,100,75,75);
-        btn22.setBounds(160,100,75,75);
-        btn23.setBounds(160,100,75,75);
-        btn24.setBounds(160,100,75,75);
-        btn25.setBounds(160,100,75,75);
+        btn1.setBounds(48,100,75,75);
+        btn2.setBounds(128,100,75,75);
+        btn3.setBounds(208,100,75,75);
+        btn4.setBounds(288,100,75,75);
+        btn5.setBounds(368,100,75,75);
+        btn6.setBounds(48,180,75,75);
+        btn7.setBounds(128,180,75,75);
+        btn8.setBounds(208,180,75,75);
+        btn9.setBounds(288,180,75,75);
+        btn10.setBounds(368,180,75,75);
+        btn11.setBounds(48,260,75,75);
+        btn12.setBounds(128,260,75,75);
+        btn13.setBounds(208,260,75,75);
+        btn14.setBounds(288,260,75,75);
+        btn15.setBounds(368,260,75,75); 
+        btn16.setBounds(48,340,75,75);
+        btn17.setBounds(128,340,75,75);
+        btn18.setBounds(208,340,75,75);
+        btn19.setBounds(288,340,75,75);
+        btn20.setBounds(368,340,75,75);
+        btn21.setBounds(48,420,75,75);
+        btn22.setBounds(128,420,75,75);
+        btn23.setBounds(208,420,75,75);
+        btn24.setBounds(288,420,75,75);
+        btn25.setBounds(368,420,75,75);
 
 
 
