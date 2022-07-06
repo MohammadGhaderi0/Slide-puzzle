@@ -40,22 +40,22 @@ public class Sakht4Dar4 extends DokmeHa {
    
         
         
-        btn1.setBounds(70,100,85,85);
-        btn2.setBounds(70,100,85,85);
-        btn3.setBounds(70,100,85,85);
-        btn4.setBounds(70,100,85,85);
-        btn5.setBounds(70,100,85,85);
-        btn6.setBounds(70,100,85,85);
-        btn7.setBounds(70,100,85,85);
-        btn8.setBounds(70,100,85,85);
-        btn9.setBounds(70,100,85,85);
-        btn10.setBounds(70,100,85,85);
-        btn11.setBounds(70,100,85,85);
-        btn12.setBounds(70,100,85,85);
-        btn13.setBounds(70,100,85,85);
-        btn14.setBounds(70,100,85,85);
-        btn15.setBounds(70,100,85,85);
-        btn16.setBounds(70,100,85,85);
+        btn1.setBounds(68,100,85,85);
+        btn2.setBounds(158,100,85,85);
+        btn3.setBounds(248,100,85,85);
+        btn4.setBounds(338,100,85,85);
+        btn5.setBounds(68,190,85,85);
+        btn6.setBounds(158,190,85,85);
+        btn7.setBounds(248,190,85,85);
+        btn8.setBounds(338,190,85,85);
+        btn9.setBounds(68,280,85,85);
+        btn10.setBounds(158,280,85,85);
+        btn11.setBounds(248,280,85,85);
+        btn12.setBounds(338,280,85,85);
+        btn13.setBounds(68,370,85,85);
+        btn14.setBounds(158,370,85,85);
+        btn15.setBounds(248,370,85,85);
+        btn16.setBounds(338,370,85,85);
 
 
 
