@@ -9,17 +9,9 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-public class Sakht4Dar4 extends JFrame{
+public class Sakht4Dar4 extends DokmeHa {
 
-    public JButton btn1;
-    public JButton btn2;
-    public JButton btn3;
-    public JButton btn4;
-    public JButton btn5;
-    public JButton btn6;
-    public JButton btn7;
-    public JButton btn8;
-    public JButton btn9;
+
     public JButton btn10;
     public JButton btn11;
     public JButton btn12;
@@ -27,36 +19,13 @@ public class Sakht4Dar4 extends JFrame{
     public JButton btn14;
     public JButton btn15;
     public JButton btn16;
-    public JButton restart;
-    public JButton back;
+
     
-    public Sakht4Dar4(){
-        super("15 Puzzle");
+    public Sakht4Dar4 (){
 
-// Andaze Frame
-        setSize(500,700);
 
-// Miare Markaz Safhe ==> https://stackoverflow.com/questions/144892/how-to-center-a-window-in-java
-        setLocationRelativeTo(null);
+        
 
-// Chegoonegie Baste Shodan Safhe
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
-        getContentPane().setBackground(new Color(41, 52, 74));
-        
-        setLayout(null);
-        
-        setVisible(true);
-        
-        btn1 =new JButton("1");
-        btn2 =new JButton("2");
-        btn3 =new JButton("3");
-        btn4 =new JButton("4");
-        btn5 =new JButton("5");
-        btn6 =new JButton("6");
-        btn7 =new JButton("7");
-        btn8 =new JButton("8");
-        btn9 =new JButton("9");
         btn10 =new JButton("10");
         btn11 =new JButton("11");
         btn12 =new JButton("12");
@@ -64,47 +33,38 @@ public class Sakht4Dar4 extends JFrame{
         btn14 =new JButton("14");
         btn15 =new JButton("15");
         btn16 =new JButton("");
-        back = new JButton("برگشت");
-        restart = new JButton("شروع مجدد");
+
 
         
         JayeRandomDokme();
    
         
         
-        btn1.setBounds(70,100,80,80);
-        btn2.setBounds(160,100,80,80);
-        btn3.setBounds(250,100,80,80);
-        btn4.setBounds(340,100,80,80);
-        btn5.setBounds(70,190,80,80);
-        btn6.setBounds(160,190,80,80);
-        btn7.setBounds(250,190,80,80);
-        btn8.setBounds(340,190,80,80);
-        btn9.setBounds(70,280,80,80);
-        btn10.setBounds(160,280,80,80);
-        btn11.setBounds(250,280,80,80);
-        btn12.setBounds(340,280,80,80);
-        btn13.setBounds(70,370,80,80);
-        btn14.setBounds(160,370,80,80);
-        btn15.setBounds(250,370,80,80);
-        btn16.setBounds(340,370,80,80);
-        back.setBounds(320,570,100,50);        
-        restart.setBounds(200,570,100,50);
+        btn1.setBounds(70,100,85,85);
+        btn2.setBounds(70,100,85,85);
+        btn3.setBounds(70,100,85,85);
+        btn4.setBounds(70,100,85,85);
+        btn5.setBounds(70,100,85,85);
+        btn6.setBounds(70,100,85,85);
+        btn7.setBounds(70,100,85,85);
+        btn8.setBounds(70,100,85,85);
+        btn9.setBounds(70,100,85,85);
+        btn10.setBounds(70,100,85,85);
+        btn11.setBounds(70,100,85,85);
+        btn12.setBounds(70,100,85,85);
+        btn13.setBounds(70,100,85,85);
+        btn14.setBounds(70,100,85,85);
+        btn15.setBounds(70,100,85,85);
+        btn16.setBounds(70,100,85,85);
 
-                
+
+
         MacaneDorost();
+        
         MakhfiKardaneDokmeha();
 
         
-        add(btn1);
-        add(btn2);
-        add(btn3);
-        add(btn4);
-        add(btn5);
-        add(btn6);
-        add(btn7);
-        add(btn8);
-        add(btn9);
+
         add(btn10);
         add(btn11);
         add(btn12);
@@ -112,8 +72,7 @@ public class Sakht4Dar4 extends JFrame{
         add(btn14);
         add(btn15);
         add(btn16);
-        add(back);
-        add(restart);
+
 
         
         btn1.addActionListener(new ActionListener(){
@@ -313,7 +272,7 @@ public class Sakht4Dar4 extends JFrame{
         
     }
         
- public void JayeRandomDokme(){
+ public void JayeRandomDokme (){
           Random rand = new Random();
 
     ArrayList<String> list1=new ArrayList<>();   
@@ -528,8 +487,7 @@ public class Sakht4Dar4 extends JFrame{
          if((btn8.getText()!="")&&(8==Integer.parseInt(btn8.getText()))){                 
                     btn8.setForeground(new Color(110, 200, 74));
          }else{btn8.setForeground(new Color(250, 200, 0));}
-    
-    
+
              if((btn9.getText()!="")&&(9==Integer.parseInt(btn9.getText()))){                 
                     btn9.setForeground(new Color(110, 200, 74));
          }else{btn9.setForeground(new Color(250, 200, 0));}
@@ -559,8 +517,5 @@ public class Sakht4Dar4 extends JFrame{
          }else{btn15.setForeground(new Color(250, 200, 0));}
     }
     }
-    
-    
-    
     
 }
