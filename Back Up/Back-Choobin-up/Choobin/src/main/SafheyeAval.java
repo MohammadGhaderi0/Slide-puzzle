@@ -12,7 +12,7 @@ public class SafheyeAval extends JFrame{
         public JButton Sakht;
         public JButton RekordHa;
         public JButton BarnameNevisan;
-        public String[][] AmirVaMohammad={{"12:25","Amir Hossein"},{"12:25","Mohammad Ghadiri"}};        
+        public String[][] AmirVaMohammad={{"12:25","Amir Hossein"},{"12:25","Mohammad Ghaderi"}};        
 
 // Sazandeye Frame      
     public  SafheyeAval(){
@@ -34,8 +34,6 @@ public class SafheyeAval extends JFrame{
         RekordHa = new JButton("رکوردها"); 
         BarnameNevisan = new JButton("برنامه‌نويسان");     
 
-
-        Asan.setBackground(Color.pink);
 
 // Andaze Va Mokhtasate Dokmeha
         Asan.setBounds(67,150,150,50);

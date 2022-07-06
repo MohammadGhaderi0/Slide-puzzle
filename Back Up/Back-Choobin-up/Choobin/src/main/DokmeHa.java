@@ -19,9 +19,9 @@ public class DokmeHa extends JFrame{
     public JButton btn7;
     public JButton btn8;
     public JButton btn9;
-
     public JButton back;
     public JButton restart;
+    public JButton stop;
     
          public   DokmeHa(){
                super("15 Puzzle");
@@ -52,9 +52,20 @@ public class DokmeHa extends JFrame{
         btn9 =new JButton("9");
         back = new JButton("برگشت");
         restart = new JButton("شروع مجدد");
+        stop = new JButton("توقف");
 
         back.setBounds(320,570,100,50);
         restart.setBounds(200,570,100,50);
+        stop.setBounds(80,570,100,50);
+        
+        
+        back.setBackground(new Color(0,160,96));
+        restart.setBackground(new Color(0,160,96));
+        stop.setBackground(new Color(0,160,96));
+        back.setForeground(Color.WHITE);
+        stop.setForeground(Color.WHITE);
+        restart.setForeground(Color.WHITE);
+        
         
         add(btn1);
         add(btn2);
@@ -67,6 +78,7 @@ public class DokmeHa extends JFrame{
         add(btn9);
         add(back);
         add(restart);
+        add(stop);
         
 
         

@@ -31,7 +31,7 @@ public class Developers extends JFrame{
 
         
         
-        label1.setText("کاري از");
+        label1.setText("سازندگان");
         label2.setText("محمد قادري");
         label3.setText("اميرحسين فخاري زاده");
         
