@@ -17,15 +17,18 @@ public class BakhsheSakht extends JFrame{
         public BakhsheSakht(){
         
         super("15 Puzzle"); 
-        
-// Andaze Frame       
-        setSize(500,700);        
-        
-// Chegoonegie Baste Shodan Safhe        
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+              // Andaze Frame
+                   setSize(500,700);
 
-// Miare Markaz Safhe ==> https://stackoverflow.com/questions/144892/how-to-center-a-window-in-java  
+// Miare Markaz Safhe ==> https://stackoverflow.com/questions/144892/how-to-center-a-window-in-java
         setLocationRelativeTo(null);
+
+
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        
+        getContentPane().setBackground(new Color(41, 52, 74));
+        
+   
         
 // Sakhte Yek Nemone Az Dokmeha Be Hamrahe Nameshoon        
         SeDarSe= new JButton("3 X 3");    
@@ -111,7 +114,7 @@ public class BakhsheSakht extends JFrame{
         PanjDarPanj.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 
-                new EASYpage2();
+                new Sahkt5Dar5();
 
 // Safheye Ghabli ra Mibandad                 
                 setVisible(false);
