@@ -114,7 +114,7 @@ public class BakhsheSakht extends JFrame{
         PanjDarPanj.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 
-                new Sahkt5Dar5();
+                new Sakht5Dar5();
 
 // Safheye Ghabli ra Mibandad                 
                 setVisible(false);
