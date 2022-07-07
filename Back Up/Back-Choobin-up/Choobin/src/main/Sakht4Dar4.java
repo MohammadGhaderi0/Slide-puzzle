@@ -6,6 +6,8 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Random;
 import javax.swing.JButton;
+import static javax.swing.JOptionPane.PLAIN_MESSAGE;
+
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
