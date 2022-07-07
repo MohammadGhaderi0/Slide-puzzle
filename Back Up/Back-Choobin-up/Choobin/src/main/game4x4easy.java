@@ -11,7 +11,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-public class game4x4easy extends CodhayeMoshtarak{
+public class game4x4easy extends DokmeHa{
 
    
     public JButton btn10;
