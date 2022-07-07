@@ -8,7 +8,7 @@ import java.awt.event.*;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
-public class RecordHa extends  JFrame{  
+public class RecordHa extends  CodhayeMoshtarak{  
     
 // AjZaye Darone Safhe           
         public JButton Khane; 
@@ -17,24 +17,15 @@ public class RecordHa extends  JFrame{
         
 // Sazandeye Frame      
         public RecordHa(String[][] BaghiyeRadifHa)  {        
-                    
-                    super("15 Puzzle");
-        
-// Andaze Frame
-                    setSize(500,700);
-                    
-// Miare Markaz Safhe ==> https://stackoverflow.com/questions/144892/how-to-center-a-window-in-java
-                    setLocationRelativeTo(null);
-                    
- // Chegoonegie Baste Shodan Safhe
-                    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+                                
+                
                     
 // Sakhte Yek Nemone Az Dokmeha Be Hamrahe Nameshoon     
                     Khane = new JButton("برگشت");
                     Recordha=new JTable(BaghiyeRadifHa,RadifeAval);
                     
 // Andaze Va Mokhtasate Dokmeha
-                    Khane.setBounds(200,500,150,50);
+                    Khane.setBounds(150,500,150,50);
             
 // Taghire Font Va Andaze va Style Dokme ha             
                     Khane.setFont(new Font("homa", Font.BOLD, 25));
