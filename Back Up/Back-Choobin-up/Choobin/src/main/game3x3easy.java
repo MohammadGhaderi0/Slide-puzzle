@@ -6,6 +6,8 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import static javax.swing.JOptionPane.PLAIN_MESSAGE;
+
 import java.util.ArrayList;
 import java.util.Random;
 import javax.swing.Action;
