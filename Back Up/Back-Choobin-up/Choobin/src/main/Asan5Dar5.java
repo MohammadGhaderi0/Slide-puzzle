@@ -583,14 +583,54 @@ public class Asan5Dar5 extends DokmeHa{
                     btn15.setBackground(new Color(110, 200, 74));
          }else{btn15.setBackground(new Color(250, 200, 0));}
          
+         if((btn16.getText()!="")&&(16==Integer.parseInt(btn16.getText()))){                 
+                    btn16.setBackground(new Color(110, 200, 74));
+         }else{btn16.setBackground(new Color(250, 200, 0));}
+         
+         if((btn17.getText()!="")&&(17==Integer.parseInt(btn17.getText()))){                 
+                    btn17.setBackground(new Color(110, 200, 74));
+         }else{btn17.setBackground(new Color(250, 200, 0));}
+         
+         if((btn18.getText()!="")&&(18==Integer.parseInt(btn18.getText()))){                 
+                    btn18.setBackground(new Color(110, 200, 74));
+         }else{btn18.setBackground(new Color(250, 200, 0));}
+         
+         if((btn19.getText()!="")&&(19==Integer.parseInt(btn19.getText()))){                 
+                    btn19.setBackground(new Color(110, 200, 74));
+         }else{btn19.setBackground(new Color(250, 200, 0));}
+         
+         if((btn20.getText()!="")&&(20==Integer.parseInt(btn20.getText()))){                 
+                    btn20.setBackground(new Color(110, 200, 74));
+         }else{btn20.setBackground(new Color(250, 200, 0));}
+         
+         if((btn21.getText()!="")&&(21==Integer.parseInt(btn21.getText()))){                 
+                    btn21.setBackground(new Color(110, 200, 74));
+         }else{btn21.setBackground(new Color(250, 200, 0));}
+         
+         if((btn22.getText()!="")&&(22==Integer.parseInt(btn22.getText()))){                 
+                    btn22.setBackground(new Color(110, 200, 74));
+         }else{btn22.setBackground(new Color(250, 200, 0));}
+         
+         if((btn23.getText()!="")&&(23==Integer.parseInt(btn23.getText()))){                 
+                    btn23.setBackground(new Color(110, 200, 74));
+         }else{btn23.setBackground(new Color(250, 200, 0));}
+         
+         if((btn24.getText()!="")&&(24==Integer.parseInt(btn24.getText()))){                 
+                    btn24.setBackground(new Color(110, 200, 74));
+         }else{btn24.setBackground(new Color(250, 200, 0));}
+         
          
     }
 
-         btn16.setBackground(new Color(250, 200, 0));
+         btn25.setBackground(new Color(250, 200, 0));
 
-     if (("1"==btn1.getText())&&("2"==btn2.getText())&&("3"==btn3.getText())&&("4"==btn4.getText())&&("5"==btn5.getText())&&("6"==btn6.getText())&&("7"==btn7.getText())&&("8"==btn8.getText())&&("9"==btn9.getText())&&("10"==btn10.getText())&&("11"==btn11.getText())&&("12"==btn12.getText())&&("13"==btn13.getText())&&("14"==btn14.getText())&&("15"==btn15.getText())&&(""==btn16.getText())) {
-         //JOptionPane.showMessageDialog(null, "تو بردي توخيلي خوبي");
-        } 
+     if (1==Integer.parseInt(btn1.getText())&&2==Integer.parseInt(btn2.getText())&&3==Integer.parseInt(btn3.getText())&&4==Integer.parseInt(btn4.getText())&&5==Integer.parseInt(btn5.getText())&&6==Integer.parseInt(btn6.getText())&&7==Integer.parseInt(btn7.getText())&&8==Integer.parseInt(btn8.getText())&&9==Integer.parseInt(btn9.getText())&&10==Integer.parseInt(btn10.getText())&&11==Integer.parseInt(btn11.getText())&&12==Integer.parseInt(btn12.getText())&&13==Integer.parseInt(btn13.getText())&&14==Integer.parseInt(btn14.getText())&&15==Integer.parseInt(btn15.getText())) {
+     if (16==Integer.parseInt(btn16.getText())&&17==Integer.parseInt(btn17.getText())&&18==Integer.parseInt(btn18.getText())&&19==Integer.parseInt(btn19.getText())&&20==Integer.parseInt(btn20.getText())&&21==Integer.parseInt(btn21.getText())&&22==Integer.parseInt(btn22.getText())&&23==Integer.parseInt(btn23.getText())&&24==Integer.parseInt(btn24.getText())){
+                String ssss= JOptionPane.showInputDialog(null, "تو بردي  توخيلي خوبي  حالا اسمت رو بنويس:","نام",PLAIN_MESSAGE);
+
+                System.out.println(ssss);
+     
+     }} 
         
     }
         
