@@ -111,13 +111,12 @@ public class Sakht5Dar5 extends DokmeHa{
         add(btn25);
       
 
-        
         btn1.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
                 move(btn1, btn2);
-                move(btn1, btn5);
+                move(btn1, btn6);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
+
 
                         }
         });
@@ -125,9 +124,9 @@ public class Sakht5Dar5 extends DokmeHa{
             public void actionPerformed(ActionEvent e){
                 move(btn2, btn1);
                 move(btn2, btn3);
-                move(btn2, btn6);
+                move(btn2, btn7);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
+
 
                         }
         });
@@ -135,214 +134,231 @@ public class Sakht5Dar5 extends DokmeHa{
             public void actionPerformed(ActionEvent e){
                 move(btn3, btn2);
                 move(btn3, btn4);
-                move(btn3, btn7);
+                move(btn3, btn8);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
+
 
                         }
         });
         btn4.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn4, btn8);
                 move(btn4, btn3);
+                move(btn4, btn5);
+                move(btn4, btn9);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
+
 
                                         }
         });
         btn5.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn5, btn1);
-                move(btn5, btn6);
-                move(btn5, btn9);
+                move(btn5, btn4);
+                move(btn5, btn10);
+                
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
+
 
                         }
         });
         btn6.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn6, btn2);
-                move(btn6, btn5);
+                move(btn6, btn1);
                 move(btn6, btn7);
-                move(btn6, btn10);
+                move(btn6, btn11);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
+
 
                         }
         });
         btn7.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn7, btn3);
+                move(btn7, btn2);
                 move(btn7, btn6);
                 move(btn7, btn8);
-                move(btn7, btn11);
+                move(btn7, btn12);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
+
 
                         }
         });
         btn8.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn8, btn4);
+                move(btn8, btn3);
                 move(btn8, btn7);
-                move(btn8, btn12);
+                move(btn8, btn9);
+                move(btn8, btn13);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
+
 
                         }
         });
         btn9.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn9, btn5);
+                move(btn9, btn4);
+                move(btn9, btn8);
                 move(btn9, btn10);
-                move(btn9, btn13);
+                move(btn9, btn14);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
 
                         }
         });
         btn10.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn10, btn6);
+                move(btn10, btn5);
                 move(btn10, btn9);
-                move(btn10, btn11);
-                move(btn10, btn14);
+                move(btn10, btn15);
+                
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
 
                         }
         });
         btn11.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn11, btn10);
+                move(btn11, btn6);
                 move(btn11, btn12);
-                move(btn11, btn7);
-                move(btn11, btn15);
+                move(btn11, btn16);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
 
                         }
         });
         btn12.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn12, btn8);
+                move(btn12, btn7);
                 move(btn12, btn11);
-                move(btn12, btn16);
+                move(btn12, btn13);
+                move(btn12, btn17);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
 
                         }
         });
         btn13.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn13, btn9);
+                move(btn13, btn12);
+                move(btn13, btn8);
                 move(btn13, btn14);
+                move(btn13, btn18);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
+
 
                         }
         });
         btn14.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn14, btn10);
                 move(btn14, btn13);
+                move(btn14, btn9);
                 move(btn14, btn15);
+                move(btn14, btn19);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
 
 
                         }
         });
         btn15.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
+                move(btn15, btn10);
                 move(btn15, btn14);
-                move(btn15, btn16);
-                move(btn15, btn11);
+                move(btn15, btn20);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
 
 
                         }
         });
         btn16.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn16, btn15);
-                move(btn16, btn12);
+                move(btn16, btn11);
+                move(btn16, btn17);
+                move(btn16, btn21);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
+
 
                         }
         });
         btn17.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn16, btn15);
-                move(btn16, btn12);
+                move(btn17, btn12);
+                move(btn17, btn16);
+                move(btn17, btn18);
+                move(btn17, btn22);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
 
                         }
         });
         btn18.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn16, btn15);
-                move(btn16, btn12);
+                move(btn18, btn13);
+                move(btn18, btn17);
+                move(btn18, btn19);
+                move(btn18, btn23);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
+
 
                         }
         });
         btn19.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn16, btn15);
-                move(btn16, btn12);
+                move(btn19, btn14);
+                move(btn19, btn18);
+                move(btn19, btn20);
+                move(btn19, btn24);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
+
 
                         }
         });
         btn20.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn16, btn15);
-                move(btn16, btn12);
+                move(btn20, btn15);
+                move(btn20, btn19);
+                move(btn20, btn25);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
+
 
                         }
         });
         btn21.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn16, btn15);
-                move(btn16, btn12);
+                move(btn21, btn16);
+                move(btn21, btn22);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
+
 
                         }
         });
         btn22.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn16, btn15);
-                move(btn16, btn12);
+                move(btn22, btn17);
+                move(btn22, btn21);
+                move(btn22, btn23);
                 MacaneDorost();                
-                MakhfiKardaneDokmeha();
 
                         }
         });
         btn23.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn16, btn15);
-                move(btn16, btn12);
+                move(btn23, btn18);
+                move(btn23, btn22);
+                move(btn23, btn24);
                 MacaneDorost();
-                MakhfiKardaneDokmeha();
+
 
                         }
         });
         btn24.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                move(btn16, btn15);
-                move(btn16, btn12);
+                move(btn24, btn19);
+                move(btn24, btn23);
+                move(btn24, btn25);
                 MacaneDorost();
-                MakhfiKardaneDokmeha();
+
+                        }
+        });
+       
+        btn25.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+                move(btn25, btn20);
+                move(btn25, btn24);
+                MacaneDorost();
+
                         }
         });
         back.addActionListener(new ActionListener(){
