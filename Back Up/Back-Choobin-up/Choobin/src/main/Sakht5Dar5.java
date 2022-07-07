@@ -651,8 +651,7 @@ public class Sakht5Dar5 extends DokmeHa{
     
                  System.out.println(btn8.getText());
                  System.out.println(btn1.getText());
-
-    for (int i=0; i<2;i++){
+      for (int i=0; i<2;i++){
          if ((btn1.getText()!="")&&(1==Integer.parseInt(btn1.getText()))){              
                     btn1.setForeground(new Color(110, 200, 74));
           }else {btn1.setForeground(new Color(250, 200, 0));}
@@ -684,8 +683,8 @@ public class Sakht5Dar5 extends DokmeHa{
          if((btn8.getText()!="")&&(8==Integer.parseInt(btn8.getText()))){                 
                     btn8.setForeground(new Color(110, 200, 74));
          }else{btn8.setForeground(new Color(250, 200, 0));}
-
-             if((btn9.getText()!="")&&(9==Integer.parseInt(btn9.getText()))){                 
+         
+         if((btn9.getText()!="")&&(9==Integer.parseInt(btn9.getText()))){                 
                     btn9.setForeground(new Color(110, 200, 74));
          }else{btn9.setForeground(new Color(250, 200, 0));}
          
@@ -712,6 +711,44 @@ public class Sakht5Dar5 extends DokmeHa{
          if((btn15.getText()!="")&&(15==Integer.parseInt(btn15.getText()))){                 
                     btn15.setForeground(new Color(110, 200, 74));
          }else{btn15.setForeground(new Color(250, 200, 0));}
+         
+         if((btn16.getText()!="")&&(16==Integer.parseInt(btn16.getText()))){                 
+                    btn16.setForeground(new Color(110, 200, 74));
+         }else{btn16.setForeground(new Color(250, 200, 0));}
+         
+         if((btn17.getText()!="")&&(17==Integer.parseInt(btn17.getText()))){                 
+                    btn17.setForeground(new Color(110, 200, 74));
+         }else{btn17.setForeground(new Color(250, 200, 0));}
+         
+         if((btn18.getText()!="")&&(18==Integer.parseInt(btn18.getText()))){                 
+                    btn18.setForeground(new Color(110, 200, 74));
+         }else{btn18.setForeground(new Color(250, 200, 0));}
+         
+         if((btn19.getText()!="")&&(19==Integer.parseInt(btn19.getText()))){                 
+                    btn19.setForeground(new Color(110, 200, 74));
+         }else{btn19.setForeground(new Color(250, 200, 0));}
+         
+         if((btn20.getText()!="")&&(20==Integer.parseInt(btn20.getText()))){                 
+                    btn20.setForeground(new Color(110, 200, 74));
+         }else{btn20.setForeground(new Color(250, 200, 0));}
+         
+         if((btn21.getText()!="")&&(21==Integer.parseInt(btn21.getText()))){                 
+                    btn21.setForeground(new Color(110, 200, 74));
+         }else{btn21.setForeground(new Color(250, 200, 0));}
+         
+         if((btn22.getText()!="")&&(22==Integer.parseInt(btn22.getText()))){                 
+                    btn22.setForeground(new Color(110, 200, 74));
+         }else{btn22.setForeground(new Color(250, 200, 0));}
+         
+         if((btn23.getText()!="")&&(23==Integer.parseInt(btn23.getText()))){                 
+                    btn23.setForeground(new Color(110, 200, 74));
+         }else{btn23.setForeground(new Color(250, 200, 0));}
+         
+         if((btn24.getText()!="")&&(24==Integer.parseInt(btn24.getText()))){                 
+                    btn24.setForeground(new Color(110, 200, 74));
+         }else{btn24.setForeground(new Color(250, 200, 0));}
+         
+         
     }
     }
     
