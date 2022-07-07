@@ -61,6 +61,7 @@ public class EASYpage2 extends CodhayeMoshtarak{
             public void actionPerformed(ActionEvent e){
                 new game3x3easy();                          
                 setVisible(false);
+                
          }
         });
         four.addActionListener(new ActionListener(){

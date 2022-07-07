@@ -19,27 +19,23 @@ import javax.swing.Timer;
 
 
 public class game3x3easy extends DokmeHa{
-    int elapsedTime = 0;
-	int seconds =0;
-	int minutes =0;
-	int hours =0;
-	boolean started = false;
-        String seconds_string = String.format("%02d", seconds);
-	String minutes_string = String.format("%02d", minutes);
-	String hours_string = String.format("%02d", hours);
+    public int elapsedTime = 0;
+    public int seconds =0;
+    public int minutes =0;
+    public boolean started = false;
+    public String seconds_string = String.format("%02d", seconds);
+    public String minutes_string = String.format("%02d", minutes);
         
     
     Timer timer = new Timer(1000, new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
             elapsedTime=elapsedTime+1000;
-	    hours = (elapsedTime/3600000);
 	    minutes = (elapsedTime/60000) % 60;
 	    seconds = (elapsedTime/1000) % 60;
             seconds_string = String.format("%02d", seconds);
 	    minutes_string = String.format("%02d", minutes);
-	    hours_string = String.format("%02d", hours);
-	    timeLabel.setText(hours_string+":"+minutes_string+":"+seconds_string);
+	    timeLabel.setText(minutes_string+":"+seconds_string);
         }
     });
     void start() {
@@ -55,11 +51,9 @@ public class game3x3easy extends DokmeHa{
 		elapsedTime=0;
 		seconds =0;
 		minutes=0;
-		hours=0;
 		seconds_string = String.format("%02d", seconds);
 		minutes_string = String.format("%02d", minutes);
-		hours_string = String.format("%02d", hours);
-		timeLabel.setText(hours_string+":"+minutes_string+":"+seconds_string);
+		timeLabel.setText(minutes_string+":"+seconds_string);
 	}
     
     public JLabel timeLabel;
@@ -183,26 +177,24 @@ public class game3x3easy extends DokmeHa{
                 JayeRandomDokme();
                 MacaneDorost();
                 start.setVisible(false);
-                if (e.getSource()==start){
-                    started=true;
-		    start();
-                    }
-                else{
-                    
-                }
+                started=true;
+		start();
                           
                         }
         });
         stop.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-               started=false;
-		stop.setText("ادامه");
-		stop();
-                if (e.getSource() == stop&& "ادامه".equals(stop.getText())){
+               if (e.getSource()==stop && started == true){
+                   started=false;
+		   stop.setText("ادامه");
+		   stop();
+               }
+               else if (e.getSource()==stop&& started == false) {
                     started=true;
-                    start();
-                    
+                    stop.setText("توقف");
+                    start();  
                 }
+                
             }
         });
         
