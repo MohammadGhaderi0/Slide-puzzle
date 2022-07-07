@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-public class EASYpage2 extends JFrame{ // بجاي پنل از فريم استفاده ميکنيم
+public class EASYpage2 extends CodhayeMoshtarak{
 
     public JButton three;
     public JButton four;
@@ -15,14 +15,7 @@ public class EASYpage2 extends JFrame{ // بجاي پنل از فريم استف
     
 
     public EASYpage2(){
-        super("15 Puzzle"); // نام تايتل ما
 
-        setSize(500,700);        
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // اين رو حتما بنويس تا با ضربدر قرمز بسته شه
-
-        setLayout(null); 
-        //setPreferredSize(new Dimension(500, 700));
-        setLocationRelativeTo(null); // اين رو حتما بنويس تا بياره مرکز
         three = new JButton("3 X 3");    
         four = new JButton("4 x 4");
         five = new JButton("5 x 5");    
@@ -55,7 +48,7 @@ public class EASYpage2 extends JFrame{ // بجاي پنل از فريم استف
         add(home);
         
         
-        setVisible(true);
+
         
         home.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
