@@ -6,7 +6,7 @@ import javax.swing.*;
 import java.awt.event.*;
 
 
-public class BakhsheSakht extends JFrame{ 
+public class BakhsheSakht extends CodhayeMoshtarak{ 
 
         public JButton SeDarSe;
         public JButton ChaharDarChahar;
@@ -15,18 +15,7 @@ public class BakhsheSakht extends JFrame{
         
 
         public BakhsheSakht(){
-        
-        super("15 Puzzle"); 
-              // Andaze Frame
-                   setSize(500,700);
 
-// Miare Markaz Safhe ==> https://stackoverflow.com/questions/144892/how-to-center-a-window-in-java
-        setLocationRelativeTo(null);
-
-
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
-        getContentPane().setBackground(new Color(41, 52, 74));
         
    
         
@@ -77,12 +66,6 @@ public class BakhsheSakht extends JFrame{
         add(PanjDarPanj);       
         add(Khane); 
         
-        
-// Laye Bandie Panel
-        setLayout(null); 
-        
-// Ghabeliat Didane Frame      
-        setVisible(true);
 
                 
         
