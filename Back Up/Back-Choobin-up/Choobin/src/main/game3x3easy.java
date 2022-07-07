@@ -18,7 +18,7 @@ import javax.swing.JOptionPane;
 import javax.swing.Timer;
 
 
-public class game3x3easy extends DokmeHa{
+public class game3x3easy extends CodhayeMoshtarak{
     int elapsedTime = 0;
 	int seconds =0;
 	int minutes =0;
