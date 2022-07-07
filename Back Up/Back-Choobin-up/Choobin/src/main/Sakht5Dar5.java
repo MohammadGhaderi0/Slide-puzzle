@@ -11,7 +11,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-public class Sakht5Dar5 extends DokmeHa{
+public class Sakht5Dar5 extends CodhayeMoshtarak{
 
    
     public JButton btn10;
