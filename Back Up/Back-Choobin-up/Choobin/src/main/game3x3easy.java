@@ -75,7 +75,7 @@ public class game3x3easy extends DokmeHa{
         
         
         timeLabel = new JLabel();
-        timeLabel.setBounds(170,400,200,100);
+        timeLabel.setBounds(195,400,200,100);
         timeLabel.setForeground(Color.WHITE);
         timeLabel.setFont(new Font("Verdana",Font.PLAIN,30));
         add(timeLabel);

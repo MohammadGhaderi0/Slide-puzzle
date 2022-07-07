@@ -1,17 +1,58 @@
 package main;
 
 import java.awt.Color;
+import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Random;
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import static javax.swing.JOptionPane.PLAIN_MESSAGE;
+import javax.swing.Timer;
 
 public class Asan5Dar5 extends DokmeHa{
-
+    
+    public int elapsedTime = 0;
+    public int seconds =0;
+    public int minutes =0;
+    public boolean started = false;
+    public String seconds_string = String.format("%02d", seconds);
+    public String minutes_string = String.format("%02d", minutes);
+        
+    
+    Timer timer = new Timer(1000, new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            elapsedTime=elapsedTime+1000;
+	    minutes = (elapsedTime/60000) % 60;
+	    seconds = (elapsedTime/1000) % 60;
+            seconds_string = String.format("%02d", seconds);
+	    minutes_string = String.format("%02d", minutes);
+	    timeLabel.setText(minutes_string+":"+seconds_string);
+        }
+    });
+    void start() {
+		timer.start();
+	}
+	
+	void stop() {
+		timer.stop();
+	}
+	
+	void reset() {
+		timer.stop();
+		elapsedTime=0;
+		seconds =0;
+		minutes=0;
+		seconds_string = String.format("%02d", seconds);
+		minutes_string = String.format("%02d", minutes);
+		timeLabel.setText(minutes_string+":"+seconds_string);
+	}
+    
+    
    
     public JButton btn10;
     public JButton btn11;
@@ -29,11 +70,16 @@ public class Asan5Dar5 extends DokmeHa{
     public JButton btn23;
     public JButton btn24;
     public JButton btn25;
+    public JLabel timeLabel;
 
     
     public Asan5Dar5(){
 
-
+        timeLabel = new JLabel();
+        timeLabel.setBounds(195,470,200,100);
+        timeLabel.setForeground(Color.WHITE);
+        timeLabel.setFont(new Font("Verdana",Font.PLAIN,30));
+        add(timeLabel);
     
         
         
@@ -376,10 +422,40 @@ public class Asan5Dar5 extends DokmeHa{
             public void actionPerformed(ActionEvent e){
                 JayeRandomDokme();
                 MacaneDorost();
+                start.setVisible(false);
+                started=true;
+		start();
 
                         }
         });
+        stop.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+               if (e.getSource()==stop && started == true){
+                   started=false;
+		   stop.setText("ادامه");
+		   stop();
+               }
+               else if (e.getSource()==stop&& started == false) {
+                    started=true;
+                    stop.setText("توقف");
+                    start();  
+                }
+                
+            }
+        });
         
+        
+        
+        restart.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                JayeRandomDokme();
+                MacaneDorost();
+                started=false;
+	        start.setText("شروع");
+		reset();
+                start();
+            }
+        });
         
     }
         
