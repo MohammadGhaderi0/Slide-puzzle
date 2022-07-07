@@ -10,7 +10,7 @@ import javax.swing.JLabel;
 import javax.swing.border.BevelBorder;
 import javax.swing.border.Border;
 
-public class Developers extends JFrame{
+public class Developers extends CodhayeMoshtarak{
     JLabel label1;
     JLabel label2;
     JLabel label3;
@@ -18,12 +18,9 @@ public class Developers extends JFrame{
 
     Border lineborder;
     public Developers(){
-        super("15 Puzzle");
-        setSize(500,700);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setLocationRelativeTo(null);
+    
         getContentPane().setBackground(new Color(41, 52, 74));
-        setLayout(null);
+
         label1 = new JLabel();
         label2 = new JLabel();
         label3 = new JLabel();
@@ -33,7 +30,7 @@ public class Developers extends JFrame{
         
         label1.setText("سازندگان");
         label2.setText("محمد قادري");
-        label3.setText("اميرحسين فخاري زاده");
+        label3.setText("اميرحسين حسين زاده فخاري");
         
         label1.setFont(new Font("homa", Font.BOLD, 20));
         label2.setFont(new Font("homa ", Font.BOLD, 20));
@@ -49,10 +46,6 @@ public class Developers extends JFrame{
 
 
 
-
-        
-        
-        setVisible(true);
         
         add(label1);
         add(label2);
