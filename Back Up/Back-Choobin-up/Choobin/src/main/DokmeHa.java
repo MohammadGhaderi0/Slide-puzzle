@@ -8,7 +8,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 
 
-public class DokmeHa extends JFrame{
+public class DokmeHa extends CodhayeMoshtarak{
     
     public JButton btn1;
     public JButton btn2;
@@ -25,22 +25,7 @@ public class DokmeHa extends JFrame{
     public JButton restart;
     
          public   DokmeHa(){
-               super("15 Puzzle");
-               
-               // Andaze Frame
-                   setSize(500,700);
 
-// Miare Markaz Safhe ==> https://stackoverflow.com/questions/144892/how-to-center-a-window-in-java
-        setLocationRelativeTo(null);
-
-// Chegoonegie Baste Shodan Safhe
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
-        getContentPane().setBackground(new Color(41, 52, 74));
-        
-        setLayout(null);
-        
-        setVisible(true);
                
         btn1 =new JButton("1");
         btn2 =new JButton("2");
