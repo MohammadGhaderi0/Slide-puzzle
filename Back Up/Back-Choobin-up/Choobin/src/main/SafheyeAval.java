@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 
-public class SafheyeAval extends JFrame{
+public class SafheyeAval extends CodhayeMoshtarak{
 
 // AjZaye Darone Safhe        
         public JButton Asan;
@@ -15,20 +15,9 @@ public class SafheyeAval extends JFrame{
         public String[][] AmirVaMohammad={{"12:25","Amir Hossein"},{"12:25","Mohammad Ghaderi"}};        
 
 // Sazandeye Frame      
-    public  SafheyeAval(){
+    public  SafheyeAval() {
 
-        super("15 Puzzle");
-
-// Andaze Frame
-        setSize(500,700);
-
-// Miare Markaz Safhe ==> https://stackoverflow.com/questions/144892/how-to-center-a-window-in-java
-        setLocationRelativeTo(null);
-
-// Chegoonegie Baste Shodan Safhe
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-// Sakhte Yek Nemone Az Dokmeha Be Hamrahe Nameshoon
+     
         Asan = new JButton("آسان");
         Sakht = new JButton("سخت");
         RekordHa = new JButton("رکوردها"); 
@@ -72,11 +61,6 @@ public class SafheyeAval extends JFrame{
         add(BarnameNevisan);       
 
 
-// Laye Bandie Panel
-        setLayout(null);
-
-// Ghabeliat Didane Frame      
-        setVisible(true);
 
 
 // Baraye Dokme Ha Yek  Ezafe Mikonam     
