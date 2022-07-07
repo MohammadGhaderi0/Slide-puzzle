@@ -11,7 +11,7 @@ import static javax.swing.JOptionPane.PLAIN_MESSAGE;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-public class Sakht4Dar4 extends DokmeHa {
+public class Sakht4Dar4 extends CodhayeMoshtarak {
 
 
     public JButton btn10;
