@@ -386,73 +386,109 @@ public class Sakht5Dar5 extends DokmeHa{
           Random rand = new Random();
 
     ArrayList<String> list1=new ArrayList<>();   
-    for (int i =1;i<16;i++){    
+    for (int i =1;i<25;i++){    
     list1.add(Integer.toString(i));
     }
             System.out.println(list1.toString());
 
     
-    int Adad1 = rand.nextInt(15);
+    int Adad1 = rand.nextInt(24);
     String Number1 = list1.get(Adad1);
     list1.remove(Number1);
 
-    int Adad2 = rand.nextInt(14);
+    int Adad2 = rand.nextInt(23);
     String Number2 = list1.get(Adad2);
     list1.remove(Number2);
 
-    int Adad3 = rand.nextInt(13);
+    int Adad3 = rand.nextInt(22);
     String Number3 = list1.get(Adad3);
     list1.remove(Number3);
 
-    int Adad4 = rand.nextInt(12);
+    int Adad4 = rand.nextInt(21);
     String Number4 = list1.get(Adad4);
     list1.remove(Number4);
 
-    int Adad5 = rand.nextInt(11);
+    int Adad5 = rand.nextInt(20);
     String Number5 = list1.get(Adad5);
     list1.remove(Number5);
 
-    int Adad6 = rand.nextInt(10);
+    int Adad6 = rand.nextInt(19);
     String Number6 = list1.get(Adad6);
     list1.remove(Number6);
 
-    int Adad7 = rand.nextInt(9);
+    int Adad7 = rand.nextInt(18);
     String Number7 = list1.get(Adad7);
     list1.remove(Number7);
 
-    int Adad8 = rand.nextInt(8);
+    int Adad8 = rand.nextInt(17);
     String Number8 = list1.get(Adad8);
     list1.remove(Number8);
     
-    int Adad9 = rand.nextInt(7);
+    int Adad9 = rand.nextInt(16);
     String Number9 = list1.get(Adad9);
     list1.remove(Number9);
     
-    int Adad10 = rand.nextInt(6);
+    int Adad10 = rand.nextInt(15);
     String Number10 = list1.get(Adad10);
     list1.remove(Number10);
     
-    int Adad11 = rand.nextInt(5);
+    int Adad11 = rand.nextInt(14);
     String Number11 = list1.get(Adad11);
     list1.remove(Number11);
     
-    int Adad12 = rand.nextInt(4);
+    int Adad12 = rand.nextInt(13);
     String Number12 = list1.get(Adad12);
     list1.remove(Number12);
     
-    int Adad13 = rand.nextInt(3);
+    int Adad13 = rand.nextInt(12);
     String Number13 = list1.get(Adad13);
     list1.remove(Number13);
     
-    int Adad14 = rand.nextInt(2);
+    int Adad14 = rand.nextInt(11);
     String Number14 = list1.get(Adad14);
     list1.remove(Number14);
     
-    int Adad15 = rand.nextInt(1);
+    int Adad15 = rand.nextInt(10);
     String Number15 = list1.get(Adad15);
     list1.remove(Number15);
+    
+    int Adad16 = rand.nextInt(9);
+    String Number16 = list1.get(Adad16);
+    list1.remove(Number16);
+    
+    int Adad17 = rand.nextInt(8);
+    String Number17 = list1.get(Adad17);
+    list1.remove(Number17);
+    
+    int Adad18 = rand.nextInt(7);
+    String Number18 = list1.get(Adad18);
+    list1.remove(Number18);
+    
+    int Adad19 = rand.nextInt(6);
+    String Number19 = list1.get(Adad19);
+    list1.remove(Number19);
+    
+    int Adad20 = rand.nextInt(5);
+    String Number20 = list1.get(Adad20);
+    list1.remove(Number20);
+    
+    int Adad21 = rand.nextInt(4);
+    String Number21 = list1.get(Adad21);
+    list1.remove(Number21);
+    
+    int Adad22 = rand.nextInt(3);
+    String Number22 = list1.get(Adad22);
+    list1.remove(Number22);
+    
+    int Adad23 = rand.nextInt(2);
+    String Number23 = list1.get(Adad23);
+    list1.remove(Number23);
+    
+    int Adad24 = rand.nextInt(1);
+    String Number24 = list1.get(Adad24);
+    list1.remove(Number24);
 
-    String Number16 = "";
+    String Number25 = "";
     
         btn1.setText(Number1);
         btn2.setText(Number2);
@@ -470,6 +506,15 @@ public class Sakht5Dar5 extends DokmeHa{
         btn14.setText(Number14);        
         btn15.setText(Number15);        
         btn16.setText(Number16);        
+        btn17.setText(Number17);        
+        btn18.setText(Number18);        
+        btn19.setText(Number19);        
+        btn20.setText(Number20);        
+        btn21.setText(Number21);        
+        btn22.setText(Number22);        
+        btn23.setText(Number23);        
+        btn24.setText(Number24);        
+        btn25.setText(Number25);        
 
     }
     
