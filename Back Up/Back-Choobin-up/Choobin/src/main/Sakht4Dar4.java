@@ -26,7 +26,22 @@ public class Sakht4Dar4 extends DokmeHa {
     public Sakht4Dar4 (){
 
 
-        
+                                        btn1.setFont(new Font("homa", Font.BOLD, 40));
+                                btn2.setFont(new Font("homa", Font.BOLD, 40));
+                                btn3.setFont(new Font("homa", Font.BOLD, 40));
+                                btn4.setFont(new Font("homa", Font.BOLD, 40));
+                                btn5.setFont(new Font("homa", Font.BOLD, 40));
+                                btn6.setFont(new Font("homa", Font.BOLD, 40));
+                                btn7.setFont(new Font("homa", Font.BOLD, 40));
+                                btn8.setFont(new Font("homa", Font.BOLD, 40));
+                                btn9.setFont(new Font("homa", Font.BOLD, 40));
+                                btn10.setFont(new Font("homa", Font.BOLD, 40));
+                                btn11.setFont(new Font("homa", Font.BOLD, 40));
+                                btn12.setFont(new Font("homa", Font.BOLD, 40));
+                                btn13.setFont(new Font("homa", Font.BOLD, 40));
+                                btn14.setFont(new Font("homa", Font.BOLD, 40));
+                                btn15.setFont(new Font("homa", Font.BOLD, 40));
+                                btn16.setFont(new Font("homa", Font.BOLD, 40));
 
         btn10 =new JButton("10");
         btn11 =new JButton("11");
