@@ -28,7 +28,17 @@ public class Sakht4Dar4 extends DokmeHa {
     public Sakht4Dar4 (){
 
 
-                                        btn1.setFont(new Font("homa", Font.BOLD, 40));
+                                       
+
+        btn10 =new JButton("10");
+        btn11 =new JButton("11");
+        btn12 =new JButton("12");
+        btn13 =new JButton("13");
+        btn14 =new JButton("14");
+        btn15 =new JButton("15");
+        btn16 =new JButton("");
+
+ btn1.setFont(new Font("homa", Font.BOLD, 40));
                                 btn2.setFont(new Font("homa", Font.BOLD, 40));
                                 btn3.setFont(new Font("homa", Font.BOLD, 40));
                                 btn4.setFont(new Font("homa", Font.BOLD, 40));
@@ -44,16 +54,6 @@ public class Sakht4Dar4 extends DokmeHa {
                                 btn14.setFont(new Font("homa", Font.BOLD, 40));
                                 btn15.setFont(new Font("homa", Font.BOLD, 40));
                                 btn16.setFont(new Font("homa", Font.BOLD, 40));
-
-        btn10 =new JButton("10");
-        btn11 =new JButton("11");
-        btn12 =new JButton("12");
-        btn13 =new JButton("13");
-        btn14 =new JButton("14");
-        btn15 =new JButton("15");
-        btn16 =new JButton("");
-
-
         
         JayeRandomDokme();
    
