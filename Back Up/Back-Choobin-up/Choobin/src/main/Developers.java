@@ -14,9 +14,10 @@ public class Developers extends CodhayeMoshtarak{
     JLabel label1;
     JLabel label2;
     JLabel label3;
+    JLabel label4;
     JButton back;
 
-    Border lineborder;
+ //   Border lineborder;
     public Developers(){
     
         getContentPane().setBackground(new Color(41, 52, 74));
@@ -24,17 +25,20 @@ public class Developers extends CodhayeMoshtarak{
         label1 = new JLabel();
         label2 = new JLabel();
         label3 = new JLabel();
+        label4 = new JLabel();
         back = new JButton("برگشت");  
 
         
         
-        label1.setText("سازندگان");
+        label1.setText("سازندگان:");
         label2.setText("محمد قادري");
+        label4.setText("<=>");
         label3.setText("اميرحسين حسين زاده فخاري");
         
-        label1.setFont(new Font("homa", Font.BOLD, 20));
-        label2.setFont(new Font("homa ", Font.BOLD, 20));
-        label3.setFont(new Font("homa ", Font.BOLD, 20));
+        label1.setFont(new Font("homa", Font.BOLD, 40));
+        label2.setFont(new Font("homa ", Font.BOLD, 25));
+        label3.setFont(new Font("homa ", Font.BOLD, 25));
+        label4.setFont(new Font("homa ", Font.BOLD, 25));
         
         
          back.setBounds(320,570,100,50);
@@ -50,21 +54,24 @@ public class Developers extends CodhayeMoshtarak{
         add(label1);
         add(label2);
         add(label3);
+        add(label4);
         add(back);
 
         
         
-        label1.setBounds(200,180,100,100);
-        label2.setBounds(300,220,300,100);
-        label3.setBounds(80,220,200,100);
+        label1.setBounds(165,180,200,100);
+        label2.setBounds(340,250,400,100);
+        label3.setBounds(30,250,300,100);
+        label4.setBounds(280,250,50,100);
         
         
-        label3.setForeground(Color.red);
+        label4.setForeground(Color.CYAN);
+        label3.setForeground(Color.YELLOW);
         label2.setForeground(Color.red);
-        label1.setForeground(Color.red);
+        label1.setForeground(Color.GREEN);
         
         
-        lineborder = BorderFactory.createLineBorder(Color.green);
+       // lineborder = BorderFactory.createLineBorder(Color.green);
         
         
          back.addActionListener(new ActionListener(){
