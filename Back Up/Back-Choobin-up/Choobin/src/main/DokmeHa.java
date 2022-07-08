@@ -39,8 +39,13 @@ public class DokmeHa extends CodhayeMoshtarak{
         back = new JButton("برگشت");
         start = new JButton("شروع");
         stop = new JButton("توقف");
-        restart = new JButton("شروع مجدد");
-
+        restart = new JButton("از نو");
+             
+        back.setFont(new Font("homa ", Font.BOLD, 25));
+        start.setFont(new Font("homa ", Font.BOLD, 25));
+        restart.setFont(new Font("homa ", Font.BOLD, 25));
+        stop.setFont(new Font("homa ", Font.BOLD, 25));
+             
         back.setBounds(310,570,100,50);
         start.setBounds(165,510,150,50);
         stop.setBounds(70,570,100,50);
