@@ -20,7 +20,7 @@ public class BakhsheSakht extends CodhayeMoshtarak{
    
         
 // Sakhte Yek Nemone Az Dokmeha Be Hamrahe Nameshoon        
-        SeDarSe= new JButton("3 X 3");    
+        SeDarSe= new JButton("3 x 3");    
         ChaharDarChahar = new JButton("4 x 4");
         PanjDarPanj = new JButton("5 x 5");  
         Khane = new JButton("برگشت");  
@@ -37,7 +37,10 @@ public class BakhsheSakht extends CodhayeMoshtarak{
         
                 
 // Taghire Font Va Andaze va Style Dokme ha             
-        Khane.setFont(new Font("homa", Font.BOLD, 25));
+        home.setFont(new Font("homa ", Font.BOLD, 25));
+        three.setFont(new Font("homa ", Font.BOLD, 25));
+        four.setFont(new Font("homa ", Font.BOLD, 25));
+        five.setFont(new Font("homa ", Font.BOLD, 25));
                 
                 
  // Rangge Pas Zamine Avaz Mishe                        
