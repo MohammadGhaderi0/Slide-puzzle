@@ -1,86 +1,68 @@
 
 package main;
 
-import java.awt.Color;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.Font;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
 
-
-public class DokmeHa extends CodhayeMoshtarak{
+public class RecordHa extends  JFrame{  
     
-    public JButton btn1;
-    public JButton btn2;
-    public JButton btn3;
-    public JButton btn4;
-    public JButton btn5;
-    public JButton btn6;
-    public JButton btn7;
-    public JButton btn8;
-    public JButton btn9;
-    public JButton back;
-    public JButton start;
-    public JButton stop;
-    public JButton restart;
-    
-         public   DokmeHa(){
-
+// AjZaye Darone Safhe           
+        public JButton Khane; 
+        public JTable Recordha;                    
+        public String[] RadifeAval=new String[] {"زمان","نام"};
+        
+// Sazandeye Frame      
+        public RecordHa(String[][] BaghiyeRadifHa)  {        
+                                
+            super("15 Puzzle");
                
-        btn1 =new JButton("1");
-        btn2 =new JButton("2");
-        btn3 =new JButton("3");
-        btn4 =new JButton("4");
-        btn5 =new JButton("5");
-        btn6 =new JButton("6");
-        btn7 =new JButton("7");
-        btn8 =new JButton("8");
-        btn9 =new JButton("9");
-        back = new JButton("برگشت");
-        start = new JButton("شروع");
-        stop = new JButton("توقف");
-        restart = new JButton("از نو");
-             
-        back.setFont(new Font("homa ", Font.BOLD, 25));
-        start.setFont(new Font("homa ", Font.BOLD, 25));
-        restart.setFont(new Font("homa ", Font.BOLD, 25));
-        stop.setFont(new Font("homa ", Font.BOLD, 25));
-             
-        back.setBounds(310,570,100,50);
-        start.setBounds(165,510,150,50);
-        stop.setBounds(70,570,100,50);
-        restart.setBounds(190,570,100,50);
-        
-        
-        
-        back.setBackground(new Color(0,160,96));
-        start.setBackground(new Color(0,160,96));
-        stop.setBackground(new Color(0,160,96));
-        restart.setBackground(new Color(0,160,96));
-        back.setForeground(Color.WHITE);
-        stop.setForeground(Color.WHITE);
-        start.setForeground(Color.WHITE);
-        restart.setForeground(Color.WHITE);
-        
-        
-        add(btn1);
-        add(btn2);
-        add(btn3);
-        add(btn4);
-        add(btn5);
-        add(btn6);
-        add(btn7);
-        add(btn8);
-        add(btn9);
-        add(back);
-        add(start);
-        add(stop);
-        add(restart);
+               // Andaze Frame
+                   setSize(500,700);
 
-        
-              
-         }
+// Miare Markaz Safhe ==> https://stackoverflow.com/questions/144892/how-to-center-a-window-in-java
+        setLocationRelativeTo(null);
+
+// Chegoonegie Baste Shodan Safhe
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+// Sakhte Yek Nemone Az Dokmeha Be Hamrahe Nameshoon     
+
+                    Khane = new JButton("برگشت");
+                    Recordha=new JTable(BaghiyeRadifHa,RadifeAval);
+                    
+// Andaze Va Mokhtasate Dokmeha
+                    Khane.setBounds(150,500,150,50);
+            
+// Taghire Font Va Andaze va Style Dokme ha             
+                    Khane.setFont(new Font("homa", Font.BOLD, 25));
+                    
+// Halate Focus Ra Az Dokmeha Bar Midarad                 
+                    Khane.setFocusable(false);                    
+                  
+// Ezafe Kardan Ajza Be Frame => Aval Bayad Dokme Ezafe Shavad Ta Be Error Nakhorim                 
+                     add(Khane);
+                     add (new JScrollPane(Recordha));
+
          
+        
+// Ghabeliat Didane Frame      
+                     setVisible(true);    
+
+                     
+// Baraye Dokme Ha Yek Action  Ezafe Mikonam                          
+                      Khane.addActionListener(new ActionListener(){
+                                public void actionPerformed(ActionEvent e){
+                
+                                new SafheyeAval();
+
+// Safheye Ghabli ra Mibandad                
+                                setVisible(false);
+         }
+        });
+                   
+    }
+        
 }
