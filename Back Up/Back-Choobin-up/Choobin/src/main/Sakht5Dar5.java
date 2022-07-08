@@ -55,7 +55,31 @@ public class Sakht5Dar5 extends DokmeHa{
         btn24 =new JButton("23");
         btn25 =new JButton("24");
 
-
+ btn1.setFont(new Font("homa", Font.BOLD, 30));
+                        btn2.setFont(new Font("homa", Font.BOLD, 30));
+                        btn3.setFont(new Font("homa", Font.BOLD, 30));
+                        btn4.setFont(new Font("homa", Font.BOLD, 30));
+                        btn5.setFont(new Font("homa", Font.BOLD, 30));
+                        btn6.setFont(new Font("homa", Font.BOLD, 30));
+                        btn7.setFont(new Font("homa", Font.BOLD, 30));
+                        btn8.setFont(new Font("homa", Font.BOLD, 30));
+                        btn9.setFont(new Font("homa", Font.BOLD, 30));
+                        btn10.setFont(new Font("homa", Font.BOLD, 30));
+                        btn11.setFont(new Font("homa", Font.BOLD, 30));
+                        btn12.setFont(new Font("homa", Font.BOLD, 30));
+                        btn13.setFont(new Font("homa", Font.BOLD, 30));
+                        btn14.setFont(new Font("homa", Font.BOLD, 30));
+                        btn15.setFont(new Font("homa", Font.BOLD, 30));
+                        btn16.setFont(new Font("homa", Font.BOLD, 30));
+                        btn17.setFont(new Font("homa", Font.BOLD, 30));
+                        btn18.setFont(new Font("homa", Font.BOLD, 30));
+                        btn19.setFont(new Font("homa", Font.BOLD, 30));
+                        btn20.setFont(new Font("homa", Font.BOLD, 30));
+                        btn21.setFont(new Font("homa", Font.BOLD, 30));
+                        btn22.setFont(new Font("homa", Font.BOLD, 30));
+                        btn23.setFont(new Font("homa", Font.BOLD, 30));
+                        btn24.setFont(new Font("homa", Font.BOLD, 30));
+                        btn25.setFont(new Font("homa", Font.BOLD, 30));
 
         
         JayeRandomDokme();
