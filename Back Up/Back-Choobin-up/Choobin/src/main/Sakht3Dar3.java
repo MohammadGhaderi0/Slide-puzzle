@@ -137,11 +137,16 @@ MakhfiKardaneDokmeha();
         });
         back.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
-                int a =JOptionPane.showConfirmDialog(null,"Are you sure?");
+                int a =JOptionPane.showConfirmDialog(null,"خواهش ميکنم خارج نشو!!");
+   
                 if (a ==0){
+                    JOptionPane.showMessageDialog(null, "اي بابا!!");
                     new EASYpage2();
                     setVisible(false);
                     
+                }else{
+                    JOptionPane.showMessageDialog(null, "اي ول!!");
+
                 }
                         }
         });
