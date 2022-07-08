@@ -16,7 +16,7 @@ public class EASYpage2 extends CodhayeMoshtarak{
 
     public EASYpage2(){
 
-        three = new JButton("3 X 3");    
+        three = new JButton("3 x 3");    
         four = new JButton("4 x 4");
         five = new JButton("5 x 5");    
         home = new JButton("برگشت");
@@ -25,7 +25,10 @@ public class EASYpage2 extends CodhayeMoshtarak{
         four.setBounds(267,150,150,50);
         five.setBounds(267,350,150,50);
         home.setBounds(67,350,150,50);
-        home.setFont(new Font("homa ", Font.BOLD, 25));
+                home.setFont(new Font("homa ", Font.BOLD, 25));
+        three.setFont(new Font("homa ", Font.BOLD, 25));
+        four.setFont(new Font("homa ", Font.BOLD, 25));
+        five.setFont(new Font("homa ", Font.BOLD, 25));
         
         
         three.setBackground(new Color(0,160,96));
