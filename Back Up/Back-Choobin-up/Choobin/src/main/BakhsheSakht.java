@@ -37,10 +37,10 @@ public class BakhsheSakht extends CodhayeMoshtarak{
         
                 
 // Taghire Font Va Andaze va Style Dokme ha             
-        home.setFont(new Font("homa ", Font.BOLD, 25));
-        three.setFont(new Font("homa ", Font.BOLD, 25));
-        four.setFont(new Font("homa ", Font.BOLD, 25));
-        five.setFont(new Font("homa ", Font.BOLD, 25));
+        SeDarSe.setFont(new Font("homa ", Font.BOLD, 25));
+        ChaharDarChahar.setFont(new Font("homa ", Font.BOLD, 25));
+        PanjDarPanj.setFont(new Font("homa ", Font.BOLD, 25));
+        Khane.setFont(new Font("homa ", Font.BOLD, 25));
                 
                 
  // Rangge Pas Zamine Avaz Mishe                        
