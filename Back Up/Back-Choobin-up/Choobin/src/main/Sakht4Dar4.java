@@ -30,13 +30,14 @@ public class Sakht4Dar4 extends DokmeHa {
 
                                        
 
+        btn9 =new JButton("9");
         btn10 =new JButton("10");
         btn11 =new JButton("11");
         btn12 =new JButton("12");
         btn13 =new JButton("13");
         btn14 =new JButton("14");
         btn15 =new JButton("15");
-        btn16 =new JButton("");
+        btn16 =new JButton(" ");
 
  btn1.setFont(new Font("homa", Font.BOLD, 40));
                                 btn2.setFont(new Font("homa", Font.BOLD, 40));
@@ -456,7 +457,7 @@ public class Sakht4Dar4 extends DokmeHa {
     }
 
          btn16.setBackground(new Color(250, 200, 0));
-     if (btn8.getText()!=""&&btn1.getText()!=""&&btn2.getText()!=""&&btn3.getText()!=""&&btn4.getText()!=""&&btn5.getText()!=""&&btn6.getText()!=""&&btn7.getText()!=""&&btn9.getText()!=""&&btn10.getText()!=""&&btn11.getText()!=""&&btn13.getText()!=""&&btn14.getText()!=""&&btn15.getText()!=""&&btn12.getText()!=""&&1==Integer.parseInt(btn1.getText())&&2==Integer.parseInt(btn2.getText())&&3==Integer.parseInt(btn3.getText())&&4==Integer.parseInt(btn4.getText())&&5==Integer.parseInt(btn5.getText())&&6==Integer.parseInt(btn6.getText())&&7==Integer.parseInt(btn7.getText())&&8==Integer.parseInt(btn8.getText())&&9==Integer.parseInt(btn9.getText())&&10==Integer.parseInt(btn10.getText())&&11==Integer.parseInt(btn11.getText())&&12==Integer.parseInt(btn12.getText())&&13==Integer.parseInt(btn13.getText())&&14==Integer.parseInt(btn14.getText())&&15==Integer.parseInt(btn15.getText())) {
+     if (btn16.getText()!=""&&btn8.getText()!=""&&btn1.getText()!=""&&btn2.getText()!=""&&btn3.getText()!=""&&btn4.getText()!=""&&btn5.getText()!=""&&btn6.getText()!=""&&btn7.getText()!=""&&btn9.getText()!=""&&btn10.getText()!=""&&btn11.getText()!=""&&btn13.getText()!=""&&btn14.getText()!=""&&btn15.getText()!=""&&btn12.getText()!=""&&1==Integer.parseInt(btn1.getText())&&2==Integer.parseInt(btn2.getText())&&3==Integer.parseInt(btn3.getText())&&4==Integer.parseInt(btn4.getText())&&5==Integer.parseInt(btn5.getText())&&6==Integer.parseInt(btn6.getText())&&7==Integer.parseInt(btn7.getText())&&8==Integer.parseInt(btn8.getText())&&9==Integer.parseInt(btn9.getText())&&10==Integer.parseInt(btn10.getText())&&11==Integer.parseInt(btn11.getText())&&12==Integer.parseInt(btn12.getText())&&13==Integer.parseInt(btn13.getText())&&14==Integer.parseInt(btn14.getText())&&15==Integer.parseInt(btn15.getText())) {
                 String ssss= JOptionPane.showInputDialog(null, "تو بردي  توخيلي خوبي  حالا اسمت رو بنويس:","نام",PLAIN_MESSAGE);
 
                 System.out.println(ssss);        } 
