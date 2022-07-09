@@ -83,7 +83,7 @@ public class Sakht4Dar4 extends DokmeHa {
         MakhfiKardaneDokmeha();
 
         
-
+        add(btn9);
         add(btn10);
         add(btn11);
         add(btn12);
