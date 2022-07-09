@@ -56,8 +56,7 @@ public class Sakht4Dar4 extends DokmeHa {
                                 btn15.setFont(new Font("homa", Font.BOLD, 40));
                                 btn16.setFont(new Font("homa", Font.BOLD, 40));
         
-        JayeRandomDokme();
-   
+
         
         
         btn1.setBounds(68,100,85,85);
