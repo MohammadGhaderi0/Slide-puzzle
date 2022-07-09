@@ -70,7 +70,7 @@ public class game3x3easy extends DokmeHa{
          btn8.setFont(new Font("homa", Font.BOLD, 50));
          btn9.setFont(new Font("homa", Font.BOLD, 50));
         
-        JayeRandomDokme();
+
         btn1.setBounds(87,100,95,95);
         btn2.setBounds(192,100,95,95);
         btn3.setBounds(297,100,95,95);
