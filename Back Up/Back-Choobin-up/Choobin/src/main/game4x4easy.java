@@ -130,7 +130,7 @@ public class game4x4easy extends DokmeHa{
                 
         MacaneDorost();
         
-        
+        add(btn9);      
         add(btn10);
         add(btn11);
         add(btn12);
