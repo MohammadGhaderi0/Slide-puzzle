@@ -23,7 +23,8 @@ public class Sakht3Dar3 extends DokmeHa{
     
     public Sakht3Dar3(){
         
-
+        btn9 =new JButton("9");
+        
          btn1.setFont(new Font("homa", Font.BOLD, 50));
          btn2.setFont(new Font("homa", Font.BOLD, 50));
          btn3.setFont(new Font("homa", Font.BOLD, 50));
@@ -45,7 +46,9 @@ public class Sakht3Dar3 extends DokmeHa{
         btn7.setBounds(87,310,95,95);
         btn8.setBounds(192,310,95,95);
         btn9.setBounds(297,310,95,95);
-
+        
+        add(btn9);        
+        
                 MacaneDorost();
                 MakhfiKardaneDokmeha();
 
