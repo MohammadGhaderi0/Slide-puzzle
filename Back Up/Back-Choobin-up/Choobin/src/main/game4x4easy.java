@@ -299,15 +299,6 @@ public class game4x4easy extends DokmeHa{
                 }
                         }
         });
-          start.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                JayeRandomDokme();
-                MacaneDorost();
-                start.setVisible(false);
-                started=true;
-		start();
-                        }
-        });
         stop.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                if (e.getSource()==stop && started == true){
@@ -330,8 +321,7 @@ public class game4x4easy extends DokmeHa{
             public void actionPerformed(ActionEvent e) {
                 JayeRandomDokme();
                 MacaneDorost();
-                started=false;
-	        start.setText("شروع");
+                started=true;
 		reset();
                 start();
             }

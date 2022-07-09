@@ -284,14 +284,6 @@ public class Sakht4Dar4 extends DokmeHa {
                 }
                         }
         });
-          start.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                JayeRandomDokme();
-                MacaneDorost();
-                MakhfiKardaneDokmeha();
-
-                        }
-        });
         
         
     }

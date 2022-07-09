@@ -404,13 +404,6 @@ public class Sakht5Dar5 extends DokmeHa{
                 }
                         }
         });
-          start.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                JayeRandomDokme();
-                MacaneDorost();
-                MakhfiKardaneDokmeha();
-                        }
-        });
         
         
     }

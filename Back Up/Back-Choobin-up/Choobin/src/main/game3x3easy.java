@@ -188,16 +188,6 @@ public class game3x3easy extends DokmeHa{
                 }
                         }
         });
-        start.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                JayeRandomDokme();
-                MacaneDorost();
-                start.setVisible(false);
-                started=true;
-		start();
-                          
-                        }
-        });
         stop.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                if (e.getSource()==stop && started == true){
@@ -220,10 +210,10 @@ public class game3x3easy extends DokmeHa{
             public void actionPerformed(ActionEvent e) {
                 JayeRandomDokme();
                 MacaneDorost();
-                started=false;
-	        start.setText("شروع");
+                started=true;
 		reset();
                 start();
+                restart.setText("از نو");
             }
         });
 
@@ -341,6 +331,7 @@ public class game3x3easy extends DokmeHa{
         String ssss= JOptionPane.showInputDialog(null, "تو بردي  توخيلي خوبي  حالا اسمت رو بنويس:","نام",PLAIN_MESSAGE);
 
                 System.out.println(ssss);
+                String a = minutes_string+":"+seconds_string;
         } 
      
         

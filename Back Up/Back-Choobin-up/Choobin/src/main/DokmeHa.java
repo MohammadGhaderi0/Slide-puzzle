@@ -22,7 +22,6 @@ public class DokmeHa extends CodhayeMoshtarak{
     public JButton btn8;
     public JButton btn9;
     public JButton back;
-    public JButton start;
     public JButton stop;
     public JButton restart;
     
@@ -39,29 +38,24 @@ public class DokmeHa extends CodhayeMoshtarak{
         btn8 =new JButton("8");
 
         back = new JButton("برگشت");
-        start = new JButton("شروع");
         stop = new JButton("توقف");
-        restart = new JButton("از نو");
+        restart = new JButton("شروع");
              
         back.setFont(new Font("homa ", Font.BOLD, 25));
-        start.setFont(new Font("homa ", Font.BOLD, 25));
         restart.setFont(new Font("homa ", Font.BOLD, 25));
         stop.setFont(new Font("homa ", Font.BOLD, 25));
              
         back.setBounds(310,570,100,50);
-        start.setBounds(165,510,150,50);
         stop.setBounds(70,570,100,50);
         restart.setBounds(190,570,100,50);
         
         
         
         back.setBackground(new Color(0,160,96));
-        start.setBackground(new Color(0,160,96));
         stop.setBackground(new Color(0,160,96));
         restart.setBackground(new Color(0,160,96));
         back.setForeground(Color.WHITE);
         stop.setForeground(Color.WHITE);
-        start.setForeground(Color.WHITE);
         restart.setForeground(Color.WHITE);
         
         
@@ -75,11 +69,20 @@ public class DokmeHa extends CodhayeMoshtarak{
         add(btn8);
 
         add(back);
-        add(start);
         add(stop);
         add(restart);
 
-        
+        restart.setFocusable(false);
+        stop.setFocusable(false);
+        back.setFocusable(false);
+        btn1.setFocusable(false);
+        btn2.setFocusable(false);
+        btn3.setFocusable(false);
+        btn4.setFocusable(false);
+        btn5.setFocusable(false);
+        btn6.setFocusable(false);
+        btn7.setFocusable(false);
+        btn8.setFocusable(false);
               
          }
          

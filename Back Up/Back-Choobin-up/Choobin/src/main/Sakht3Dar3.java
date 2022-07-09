@@ -156,12 +156,7 @@ MakhfiKardaneDokmeha();
                         }
         });
         
-         start.addActionListener(new ActionListener(){
-            public void actionPerformed(ActionEvent e){
-                JayeRandomDokme();
-                MacaneDorost();
-                        }
-        });
+       
 
     }
     
