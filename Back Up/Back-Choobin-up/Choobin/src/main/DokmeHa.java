@@ -37,7 +37,7 @@ public class DokmeHa extends CodhayeMoshtarak{
         btn6 =new JButton("6");
         btn7 =new JButton("7");
         btn8 =new JButton("8");
-        btn9 =new JButton(" ");
+
         back = new JButton("برگشت");
         start = new JButton("شروع");
         stop = new JButton("توقف");
@@ -73,7 +73,7 @@ public class DokmeHa extends CodhayeMoshtarak{
         add(btn6);
         add(btn7);
         add(btn8);
-        add(btn9);
+
         add(back);
         add(start);
         add(stop);
