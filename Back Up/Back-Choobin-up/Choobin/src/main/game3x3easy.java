@@ -60,7 +60,7 @@ public class game3x3easy extends DokmeHa{
 
     public game3x3easy(){
 	    
-	 btn9 =new JButton("9");
+	 btn9 =new JButton(" ");
         
          btn1.setFont(new Font("homa", Font.BOLD, 50));
          btn2.setFont(new Font("homa", Font.BOLD, 50));
