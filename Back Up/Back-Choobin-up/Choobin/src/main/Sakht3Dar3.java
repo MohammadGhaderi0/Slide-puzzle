@@ -33,7 +33,7 @@ public class Sakht3Dar3 extends DokmeHa{
          btn7.setFont(new Font("homa", Font.BOLD, 50));
          btn8.setFont(new Font("homa", Font.BOLD, 50));
          btn9.setFont(new Font("homa", Font.BOLD, 50));
-         JayeRandomDokme();
+
 
 
         btn1.setBounds(87,100,95,95);
