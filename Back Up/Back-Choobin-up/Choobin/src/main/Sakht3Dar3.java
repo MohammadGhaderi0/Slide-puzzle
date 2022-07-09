@@ -23,7 +23,7 @@ public class Sakht3Dar3 extends DokmeHa{
     
     public Sakht3Dar3(){
         
-        btn9 =new JButton("9");
+        btn9 =new JButton(" ");
         
          btn1.setFont(new Font("homa", Font.BOLD, 50));
          btn2.setFont(new Font("homa", Font.BOLD, 50));
