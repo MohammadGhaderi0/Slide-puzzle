@@ -127,7 +127,7 @@ public class Asan5Dar5 extends DokmeHa{
                         btn24.setFont(new Font("homa", Font.BOLD, 30));
                         btn25.setFont(new Font("homa", Font.BOLD, 30));
         
-        JayeRandomDokme();
+ 
    
         
         
