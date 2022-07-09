@@ -163,7 +163,7 @@ public class Asan5Dar5 extends DokmeHa{
          MacaneDorost();                
 
         
-        
+        add(btn9);
         add(btn10);
         add(btn11);
         add(btn12);
