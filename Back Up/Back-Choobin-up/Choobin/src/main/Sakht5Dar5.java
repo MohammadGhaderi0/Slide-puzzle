@@ -120,7 +120,7 @@ public class Sakht5Dar5 extends DokmeHa{
          MacaneDorost();                
          MakhfiKardaneDokmeha();
         
-        
+         add(btn9);
         add(btn10);
         add(btn11);
         add(btn12);
