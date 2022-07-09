@@ -105,7 +105,7 @@ public class game4x4easy extends DokmeHa{
                                 btn16.setFont(new Font("homa", Font.BOLD, 40));
 
         
-        JayeRandomDokme();
+
    
         
         
