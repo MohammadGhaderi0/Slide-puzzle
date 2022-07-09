@@ -59,6 +59,8 @@ public class game3x3easy extends DokmeHa{
     public JLabel timeLabel;
 
     public game3x3easy(){
+	    
+	 btn9 =new JButton("9");
         
          btn1.setFont(new Font("homa", Font.BOLD, 50));
          btn2.setFont(new Font("homa", Font.BOLD, 50));
@@ -80,7 +82,8 @@ public class game3x3easy extends DokmeHa{
         btn7.setBounds(87,310,95,95);
         btn8.setBounds(192,310,95,95);
         btn9.setBounds(297,310,95,95);
-        
+	    
+         add(btn9);
         
         timeLabel = new JLabel();
         timeLabel.setBounds(195,400,200,100);
