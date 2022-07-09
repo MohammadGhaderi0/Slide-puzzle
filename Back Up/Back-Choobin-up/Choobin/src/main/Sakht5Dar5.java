@@ -85,7 +85,6 @@ public class Sakht5Dar5 extends DokmeHa{
                         btn25.setFont(new Font("homa", Font.BOLD, 30));
 
         
-        JayeRandomDokme();
    
         
         
