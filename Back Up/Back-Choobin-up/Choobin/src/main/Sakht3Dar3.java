@@ -126,7 +126,82 @@ public class Sakht3Dar3 extends DokmeHa{
                 MacaneDorost();
                 MakhfiKardaneDokmeha();
 
+       btn1.addMouseListener(new MouseListener(){
 
+            public void mousePressed(MouseEvent e){
+                           btn1.setForeground(new Color(204, 204, 230));
+                           btn1.setBackground(new Color(204, 204, 230));
+}
+            public void mouseClicked(MouseEvent e) {}public void mouseReleased(MouseEvent e) {}public void mouseEntered(MouseEvent e) {}public void mouseExited(MouseEvent e) {}
+         
+        });
+        
+        btn2.addMouseListener(new MouseListener(){
+
+            public void mousePressed(MouseEvent e){
+                           btn2.setForeground(new Color(204, 204, 230));
+                           btn2.setBackground(new Color(204, 204, 230));
+}
+            public void mouseClicked(MouseEvent e) {}public void mouseReleased(MouseEvent e) {}public void mouseEntered(MouseEvent e) {}public void mouseExited(MouseEvent e) {}
+         
+        });
+        btn3.addMouseListener(new MouseListener(){
+
+            public void mousePressed(MouseEvent e){
+                           btn3.setForeground(new Color(204, 204, 230));
+                           btn3.setBackground(new Color(204, 204, 230));
+}
+            public void mouseClicked(MouseEvent e) {}public void mouseReleased(MouseEvent e) {}public void mouseEntered(MouseEvent e) {}public void mouseExited(MouseEvent e) {}
+         
+        });
+        btn4.addMouseListener(new MouseListener(){
+
+            public void mousePressed(MouseEvent e){
+                           btn4.setForeground(new Color(204, 204, 230));
+                           btn4.setBackground(new Color(204, 204, 230));
+}
+            public void mouseClicked(MouseEvent e) {}public void mouseReleased(MouseEvent e) {}public void mouseEntered(MouseEvent e) {}public void mouseExited(MouseEvent e) {}
+         
+        });
+        btn5.addMouseListener(new MouseListener(){
+
+            public void mousePressed(MouseEvent e){
+                           btn5.setForeground(new Color(204, 204, 230));
+                           btn5.setBackground(new Color(204, 204, 230));
+}
+            public void mouseClicked(MouseEvent e) {}public void mouseReleased(MouseEvent e) {}public void mouseEntered(MouseEvent e) {}public void mouseExited(MouseEvent e) {}
+         
+        });
+        btn6.addMouseListener(new MouseListener(){
+
+            public void mousePressed(MouseEvent e){
+                           btn6.setForeground(new Color(204, 204, 230));
+                           btn6.setBackground(new Color(204, 204, 230));
+}
+            public void mouseClicked(MouseEvent e) {}public void mouseReleased(MouseEvent e) {}public void mouseEntered(MouseEvent e) {}public void mouseExited(MouseEvent e) {}
+         
+        });
+        btn7.addMouseListener(new MouseListener(){
+
+            public void mousePressed(MouseEvent e){
+                           btn7.setForeground(new Color(204, 204, 230));
+                           btn7.setBackground(new Color(204, 204, 230));
+}
+            public void mouseClicked(MouseEvent e) {}public void mouseReleased(MouseEvent e) {}public void mouseEntered(MouseEvent e) {}public void mouseExited(MouseEvent e) {}
+         
+        });
+        btn8.addMouseListener(new MouseListener(){
+
+            public void mousePressed(MouseEvent e){
+                           btn8.setForeground(new Color(204, 204, 230));
+                           btn8.setBackground(new Color(204, 204, 230));
+}
+            public void mouseClicked(MouseEvent e) {}public void mouseReleased(MouseEvent e) {}public void mouseEntered(MouseEvent e) {}public void mouseExited(MouseEvent e) {}
+         
+        });
+	    
+	    
+	    
         
         btn1.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
