@@ -478,7 +478,8 @@ public class Sakht5Dar5 extends DokmeHa{
             public void actionPerformed(ActionEvent e){
                 move(btn1, btn2);
                 move(btn1, btn6);
-                MacaneDorost();                
+                MacaneDorost(); 
+		    MakhfiKardaneDokmeha();
 
 
                         }
@@ -488,7 +489,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn2, btn1);
                 move(btn2, btn3);
                 move(btn2, btn7);
-                MacaneDorost();                
+                MacaneDorost();         
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -498,7 +500,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn3, btn2);
                 move(btn3, btn4);
                 move(btn3, btn8);
-                MacaneDorost();                
+                MacaneDorost();        
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -508,7 +511,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn4, btn3);
                 move(btn4, btn5);
                 move(btn4, btn9);
-                MacaneDorost();                
+                MacaneDorost();              
+		     MakhfiKardaneDokmeha();
 
 
                                         }
@@ -518,7 +522,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn5, btn4);
                 move(btn5, btn10);
                 
-                MacaneDorost();                
+                MacaneDorost();      
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -528,7 +533,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn6, btn1);
                 move(btn6, btn7);
                 move(btn6, btn11);
-                MacaneDorost();                
+                MacaneDorost();           
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -539,7 +545,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn7, btn6);
                 move(btn7, btn8);
                 move(btn7, btn12);
-                MacaneDorost();                
+                MacaneDorost();    
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -550,7 +557,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn8, btn7);
                 move(btn8, btn9);
                 move(btn8, btn13);
-                MacaneDorost();                
+                MacaneDorost();    
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -561,7 +569,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn9, btn8);
                 move(btn9, btn10);
                 move(btn9, btn14);
-                MacaneDorost();                
+                MacaneDorost();      
+		     MakhfiKardaneDokmeha();
 
                         }
         });
@@ -571,7 +580,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn10, btn9);
                 move(btn10, btn15);
                 
-                MacaneDorost();                
+                MacaneDorost();        
+		     MakhfiKardaneDokmeha();
 
                         }
         });
@@ -580,7 +590,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn11, btn6);
                 move(btn11, btn12);
                 move(btn11, btn16);
-                MacaneDorost();                
+                MacaneDorost();        
+		     MakhfiKardaneDokmeha();
 
                         }
         });
@@ -590,7 +601,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn12, btn11);
                 move(btn12, btn13);
                 move(btn12, btn17);
-                MacaneDorost();                
+                MacaneDorost();      
+		     MakhfiKardaneDokmeha();
 
                         }
         });
@@ -600,7 +612,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn13, btn8);
                 move(btn13, btn14);
                 move(btn13, btn18);
-                MacaneDorost();                
+                MacaneDorost();        
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -611,7 +624,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn14, btn9);
                 move(btn14, btn15);
                 move(btn14, btn19);
-                MacaneDorost();                
+                MacaneDorost();        
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -621,7 +635,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn15, btn10);
                 move(btn15, btn14);
                 move(btn15, btn20);
-                MacaneDorost();                
+                MacaneDorost();         
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -631,7 +646,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn16, btn11);
                 move(btn16, btn17);
                 move(btn16, btn21);
-                MacaneDorost();                
+                MacaneDorost();       
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -642,7 +658,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn17, btn16);
                 move(btn17, btn18);
                 move(btn17, btn22);
-                MacaneDorost();                
+                MacaneDorost();          
+		     MakhfiKardaneDokmeha();
 
                         }
         });
@@ -652,7 +669,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn18, btn17);
                 move(btn18, btn19);
                 move(btn18, btn23);
-                MacaneDorost();                
+                MacaneDorost();       
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -663,7 +681,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn19, btn18);
                 move(btn19, btn20);
                 move(btn19, btn24);
-                MacaneDorost();                
+                MacaneDorost();    
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -673,7 +692,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn20, btn15);
                 move(btn20, btn19);
                 move(btn20, btn25);
-                MacaneDorost();                
+                MacaneDorost();       
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -682,7 +702,8 @@ public class Sakht5Dar5 extends DokmeHa{
             public void actionPerformed(ActionEvent e){
                 move(btn21, btn16);
                 move(btn21, btn22);
-                MacaneDorost();                
+                MacaneDorost();        
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -692,7 +713,8 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn22, btn17);
                 move(btn22, btn21);
                 move(btn22, btn23);
-                MacaneDorost();                
+                MacaneDorost();          
+		     MakhfiKardaneDokmeha();
 
                         }
         });
@@ -702,6 +724,7 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn23, btn22);
                 move(btn23, btn24);
                 MacaneDorost();
+		     MakhfiKardaneDokmeha();
 
 
                         }
@@ -712,6 +735,7 @@ public class Sakht5Dar5 extends DokmeHa{
                 move(btn24, btn23);
                 move(btn24, btn25);
                 MacaneDorost();
+		     MakhfiKardaneDokmeha();
 
                         }
         });
