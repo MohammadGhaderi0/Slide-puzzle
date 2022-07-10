@@ -15,7 +15,6 @@ public class EASYpage2 extends CodhayeMoshtarak{
     
 
     public EASYpage2(){
-
         three = new JButton("3 x 3");    
         four = new JButton("4 x 4");
         five = new JButton("5 x 5");    

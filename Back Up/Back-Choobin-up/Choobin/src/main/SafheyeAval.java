@@ -16,8 +16,7 @@ public class SafheyeAval extends CodhayeMoshtarak{
 
 // Sazandeye Frame      
     public  SafheyeAval() {
-
-     
+      
         Asan = new JButton("آسان");
         Sakht = new JButton("سخت");
         RekordHa = new JButton("رکوردها"); 

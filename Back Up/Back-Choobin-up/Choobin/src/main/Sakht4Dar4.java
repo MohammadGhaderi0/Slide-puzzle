@@ -11,11 +11,93 @@ import javax.swing.JButton;
 import static javax.swing.JOptionPane.PLAIN_MESSAGE;
 
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
+import javax.swing.Timer;
 
 public class Sakht4Dar4 extends DokmeHa {
 
-
+    
+    void off(boolean a){
+        if(a==false){
+            btn1.setVisible(false);
+            btn2.setVisible(false);
+            btn3.setVisible(false);
+            btn4.setVisible(false);
+            btn5.setVisible(false);
+            btn6.setVisible(false);
+            btn7.setVisible(false);
+            btn8.setVisible(false);
+            btn9.setVisible(false);
+            btn10.setVisible(false);
+            btn11.setVisible(false);
+            btn12.setVisible(false);
+            btn13.setVisible(false);
+            btn14.setVisible(false);
+            btn15.setVisible(false);
+            btn16.setVisible(false);
+        } 
+        if (a==true) {
+            btn1.setVisible(true);
+            btn2.setVisible(true);
+            btn3.setVisible(true);
+            btn4.setVisible(true);
+            btn5.setVisible(true);
+            btn6.setVisible(true);
+            btn7.setVisible(true);
+            btn8.setVisible(true);
+            btn9.setVisible(true);
+            btn10.setVisible(true);
+            btn11.setVisible(true);
+            btn12.setVisible(true);
+            btn13.setVisible(true);
+            btn14.setVisible(true);
+            btn15.setVisible(true);
+            btn16.setVisible(true);
+        }}
+    public boolean b =true;
+    
+    
+    public int elapsedTime = 0;
+    public int seconds =0;
+    public int minutes =0;
+    public boolean started = false;
+    public String seconds_string = String.format("%02d", seconds);
+    public String minutes_string = String.format("%02d", minutes);
+        
+    
+    Timer timer = new Timer(1000, new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            elapsedTime=elapsedTime+1000;
+	    minutes = (elapsedTime/60000) % 60;
+	    seconds = (elapsedTime/1000) % 60;
+            seconds_string = String.format("%02d", seconds);
+	    minutes_string = String.format("%02d", minutes);
+	    timeLabel.setText(minutes_string+":"+seconds_string);
+        }
+    });
+    void start() {
+		timer.start();
+	}
+	
+	void stop() {
+		timer.stop();
+	}
+	
+	void reset() {
+		timer.stop();
+		elapsedTime=0;
+		seconds =0;
+		minutes=0;
+		seconds_string = String.format("%02d", seconds);
+		minutes_string = String.format("%02d", minutes);
+		timeLabel.setText(minutes_string+":"+seconds_string);
+	}
+    
+    public JLabel timeLabel;
+    
+    
     public JButton btn10;
     public JButton btn11;
     public JButton btn12;
@@ -279,7 +361,7 @@ public class Sakht4Dar4 extends DokmeHa {
                     setVisible(false);
                     
                 }else{
-                    JOptionPane.showMessageDialog(null, "اي ول!!");
+                    JOptionPane.showMessageDialog(null, "ايول!!");
 
                 }
                         }

@@ -15,6 +15,64 @@ import javax.swing.Timer;
 
 public class Asan5Dar5 extends DokmeHa{
     
+    void off(boolean a){
+        if(a==false){
+           btn1.setVisible(false);
+            btn2.setVisible(false);
+            btn3.setVisible(false);
+            btn4.setVisible(false);
+            btn5.setVisible(false);
+            btn6.setVisible(false);
+            btn7.setVisible(false);
+            btn8.setVisible(false);
+            btn9.setVisible(false);
+            btn10.setVisible(false);
+            btn11.setVisible(false);
+            btn12.setVisible(false);
+            btn13.setVisible(false);
+            btn14.setVisible(false);
+            btn15.setVisible(false);
+            btn16.setVisible(false);
+            btn17.setVisible(false);
+            btn18.setVisible(false);
+            btn19.setVisible(false);
+            btn20.setVisible(false);
+            btn21.setVisible(false);
+            btn22.setVisible(false);
+            btn23.setVisible(false);
+            btn24.setVisible(false);
+            btn25.setVisible(false);
+        } 
+        if (a==true) {
+            btn1.setVisible(true);
+            btn2.setVisible(true);
+            btn3.setVisible(true);
+            btn4.setVisible(true);
+            btn5.setVisible(true);
+            btn6.setVisible(true);
+            btn7.setVisible(true);
+            btn8.setVisible(true);
+            btn9.setVisible(true);
+            btn10.setVisible(true);
+            btn11.setVisible(true);
+            btn12.setVisible(true);
+            btn13.setVisible(true);
+            btn14.setVisible(true);
+            btn15.setVisible(true);
+            btn16.setVisible(true);
+            btn17.setVisible(true);
+            btn18.setVisible(true);
+            btn19.setVisible(true);
+            btn20.setVisible(true);
+            btn21.setVisible(true);
+            btn22.setVisible(true);
+            btn23.setVisible(true);
+            btn24.setVisible(true);
+            btn25.setVisible(true);
+        }}
+    public boolean b =true;
+    
+    
     public int elapsedTime = 0;
     public int seconds =0;
     public int minutes =0;
@@ -449,6 +507,15 @@ public class Asan5Dar5 extends DokmeHa{
         });
         stop.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                 if (b==true){
+                    b=false;
+                    off(b);
+                            
+                }
+                else{
+                    b=true;
+                    off(b);
+                }
                if (e.getSource()==stop && started == true){
                    started=false;
 		   stop.setText("ادامه");
@@ -467,6 +534,8 @@ public class Asan5Dar5 extends DokmeHa{
         
         restart.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                b=true;
+                off(b);
                 stop.setVisible(true);
                 JayeRandomDokme();
                 MacaneDorost();

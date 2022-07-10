@@ -19,6 +19,35 @@ import javax.swing.Timer;
 
 
 public class game3x3easy extends DokmeHa{
+    
+    void off(boolean a){
+        if(a==false){
+            btn1.setVisible(false);
+            btn2.setVisible(false);
+            btn3.setVisible(false);
+            btn4.setVisible(false);
+            btn5.setVisible(false);
+            btn6.setVisible(false);
+            btn7.setVisible(false);
+            btn8.setVisible(false);
+            btn9.setVisible(false);
+        } 
+        if (a==true) {
+            btn1.setVisible(true);
+            btn2.setVisible(true);
+            btn3.setVisible(true);
+            btn4.setVisible(true);
+            btn5.setVisible(true);
+            btn6.setVisible(true);
+            btn7.setVisible(true);
+            btn8.setVisible(true);
+            btn9.setVisible(true);
+        }}
+    public boolean b =true;
+    
+    
+    
+    
     public int elapsedTime = 0;
     public int seconds =0;
     public int minutes =0;
@@ -190,6 +219,15 @@ public class game3x3easy extends DokmeHa{
         });
         stop.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                if (b==true){
+                    b=false;
+                    off(b);
+                            
+                }
+                else{
+                    b=true;
+                    off(b);
+                }
                if (e.getSource()==stop && started == true){
                    started=false;
 		   stop.setText("ادامه");
@@ -208,6 +246,8 @@ public class game3x3easy extends DokmeHa{
         
         restart.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                b=true;
+                off(b);
                 stop.setVisible(true);
                 JayeRandomDokme();
                 MacaneDorost();
@@ -226,8 +266,8 @@ public class game3x3easy extends DokmeHa{
         {
             button2.setText(button1.getText());
             button1.setText("");
-        }
-}
+        }}
+
         
         
         

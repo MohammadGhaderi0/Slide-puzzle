@@ -26,7 +26,7 @@ public class DokmeHa extends CodhayeMoshtarak{
     public JButton restart;
     
          public   DokmeHa(){
-
+       
                
         btn1 =new JButton("1");
         btn2 =new JButton("2");
