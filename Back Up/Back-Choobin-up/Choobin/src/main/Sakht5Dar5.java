@@ -135,7 +135,11 @@ public class Sakht5Dar5 extends DokmeHa{
     
     public Sakht5Dar5(){
 
-
+        timeLabel = new JLabel();
+        timeLabel.setBounds(195,470,200,100);
+        timeLabel.setForeground(Color.WHITE);
+        timeLabel.setFont(new Font("Verdana",Font.PLAIN,30));
+        add(timeLabel);
     
         
         
@@ -504,10 +508,27 @@ public class Sakht5Dar5 extends DokmeHa{
                         }
         });
         
-                stop.addActionListener(new ActionListener() {
+               stop.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                
-            }
+                if (b==true){
+                    b=false;
+                    off(b);
+                            
+                }
+                else{
+                    b=true;
+                    off(b);
+                }
+               if (e.getSource()==stop && started == true){
+                   started=false;
+		   stop.setText("ادامه");
+		   stop();
+               }
+               else if (e.getSource()==stop&& started == false) {
+                    started=true;
+                    stop.setText("توقف");
+                    start();  
+            }}
         });
         
         
@@ -517,6 +538,13 @@ public class Sakht5Dar5 extends DokmeHa{
                 JayeRandomDokme();
                 MacaneDorost();
                 MakhfiKardaneDokmeha();
+                b=true;
+                off(b);
+                stop.setVisible(true);
+                started=true;
+		reset();
+                start();
+                restart.setText("از نو");
             }
         });
     }

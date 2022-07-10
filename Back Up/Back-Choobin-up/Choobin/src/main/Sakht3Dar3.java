@@ -113,8 +113,16 @@ public class Sakht3Dar3 extends DokmeHa{
         btn8.setBounds(192,310,95,95);
         btn9.setBounds(297,310,95,95);
         
-        add(btn9);        
+        add(btn9);
         
+        
+        
+        
+        timeLabel = new JLabel();
+        timeLabel.setBounds(195,400,200,100);
+        timeLabel.setForeground(Color.WHITE);
+        timeLabel.setFont(new Font("Verdana",Font.PLAIN,30));
+        add(timeLabel);
                 MacaneDorost();
                 MakhfiKardaneDokmeha();
 
@@ -223,8 +231,25 @@ MakhfiKardaneDokmeha();
         });
                 stop.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                
-            }
+                if (b==true){
+                    b=false;
+                    off(b);
+                            
+                }
+                else{
+                    b=true;
+                    off(b);
+                }
+               if (e.getSource()==stop && started == true){
+                   started=false;
+		   stop.setText("ادامه");
+		   stop();
+               }
+               else if (e.getSource()==stop&& started == false) {
+                    started=true;
+                    stop.setText("توقف");
+                    start();  
+            }}
         });
         
         
@@ -234,6 +259,13 @@ MakhfiKardaneDokmeha();
                 JayeRandomDokme();
                 MacaneDorost();
                 MakhfiKardaneDokmeha();
+                b=true;
+                off(b);
+                stop.setVisible(true);
+                started=true;
+		reset();
+                start();
+                restart.setText("از نو");
             }
         });
 
