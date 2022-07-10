@@ -531,7 +531,7 @@ public class Asan5Dar5 extends DokmeHa{
                     start();  
 		    back.setBounds(310,555,100,50);
                     stop.setBounds(70,555,100,50);
-                    restart.setBounds(70,555,100,50);
+                                        restart.setBounds(190,555,100,50);
                     timeLabel.setBounds(195,470,200,100);
                 }
                 
