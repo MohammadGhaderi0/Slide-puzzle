@@ -341,6 +341,7 @@ MakhfiKardaneDokmeha();
                 started=true;
 		reset();
                 start();
+		     restart.setBounds(190,555,100,50);
                 restart.setText("از نو");
             }
         });
