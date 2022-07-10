@@ -542,6 +542,7 @@ public class Asan5Dar5 extends DokmeHa{
                 started=true;
 		reset();
                 start();
+		restart.setBounds(190,555,100,50);
             }
         });
         
