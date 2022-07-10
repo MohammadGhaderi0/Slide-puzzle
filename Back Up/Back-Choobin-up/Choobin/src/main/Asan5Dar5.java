@@ -550,6 +550,7 @@ public class Asan5Dar5 extends DokmeHa{
                 started=true;
 		reset();
                 start();
+		    restart.setText("از نو");
 		restart.setBounds(190,555,100,50);
             }
         });
