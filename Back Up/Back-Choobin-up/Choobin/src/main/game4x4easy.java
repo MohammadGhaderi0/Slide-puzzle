@@ -372,6 +372,7 @@ public class game4x4easy extends DokmeHa{
                 MacaneDorost();
                 started=true;
 		reset();
+		     restart.setBounds(190,555,100,50);
                 start();
             }
         });
