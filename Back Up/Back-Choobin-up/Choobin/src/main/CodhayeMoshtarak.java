@@ -29,7 +29,7 @@ public class CodhayeMoshtarak extends JFrame{
                        CadreEmtiaz = new JLabel();
                CadreEmtiaz.setText("امتياز شما "+Integer.toString(Emtiaz));
                CadreEmtiaz.setFont(new Font("homa ", Font.BOLD, 25));
-               CadreEmtiaz.setBounds(175,30,200,50);
+               CadreEmtiaz.setBounds(190,30,200,50);
                CadreEmtiaz.setForeground(Color.yellow);
                add(CadreEmtiaz);
         
