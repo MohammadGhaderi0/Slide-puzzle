@@ -254,6 +254,7 @@ public class game3x3easy extends DokmeHa{
                 started=true;
 		reset();
                 start();
+		     restart.setBounds(190,555,100,50);
                 restart.setText("از نو");
             }
         });
