@@ -83,6 +83,8 @@ public class DokmeHa extends CodhayeMoshtarak{
         btn6.setFocusable(false);
         btn7.setFocusable(false);
         btn8.setFocusable(false);
+        
+        stop.setVisible(false);
               
          }
          

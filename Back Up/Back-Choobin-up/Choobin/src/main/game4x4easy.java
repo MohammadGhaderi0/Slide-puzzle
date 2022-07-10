@@ -319,6 +319,7 @@ public class game4x4easy extends DokmeHa{
         
         restart.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                stop.setVisible(true);
                 JayeRandomDokme();
                 MacaneDorost();
                 started=true;
