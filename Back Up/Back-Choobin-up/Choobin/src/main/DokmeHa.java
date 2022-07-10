@@ -45,9 +45,9 @@ public class DokmeHa extends CodhayeMoshtarak{
         restart.setFont(new Font("homa ", Font.BOLD, 25));
         stop.setFont(new Font("homa ", Font.BOLD, 25));
              
-        back.setBounds(310,570,100,50);
-        stop.setBounds(70,570,100,50);
-        restart.setBounds(190,570,100,50);
+        back.setBounds(310,555,100,50);
+        stop.setBounds(70,555,100,50);
+        restart.setBounds(70,555,100,50);
         
         
         
