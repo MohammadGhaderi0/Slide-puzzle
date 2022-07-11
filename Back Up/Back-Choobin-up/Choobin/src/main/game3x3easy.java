@@ -311,7 +311,6 @@ public   boolean random2;
     for (int i =1;i<9;i++){    
     list1.add(Integer.toString(i));
     }
-            System.out.println(list1.toString());
 
     
     int Adad1 = rand.nextInt(8);
