@@ -583,7 +583,6 @@ public class Asan5Dar5 extends DokmeHa{
     for (int i =1;i<25;i++){    
     list1.add(Integer.toString(i));
     }
-            System.out.println(list1.toString());
 
     
     int Adad1 = rand.nextInt(24);
