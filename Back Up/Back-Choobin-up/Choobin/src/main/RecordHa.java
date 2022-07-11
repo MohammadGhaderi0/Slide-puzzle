@@ -3,6 +3,8 @@ package main;
 
 import java.awt.*;
 import javax.swing.*;
+import java.awt.Image;
+
 import java.awt.event.*;
 import java.io.IOException;
 import javax.imageio.ImageIO;
