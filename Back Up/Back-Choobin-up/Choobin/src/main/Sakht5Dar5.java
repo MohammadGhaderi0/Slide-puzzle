@@ -1060,6 +1060,8 @@ public class Sakht5Dar5 extends DokmeHa{
      if (btn25.getText()==""&&btn17.getText()!=""&&btn18.getText()!=""&&btn21.getText()!=""&&btn22.getText()!=""&&btn23.getText()!=""&&btn24.getText()!=""&&btn19.getText()!=""&&btn20.getText()!=""&&16==Integer.parseInt(btn16.getText())&&17==Integer.parseInt(btn17.getText())&&18==Integer.parseInt(btn18.getText())&&19==Integer.parseInt(btn19.getText())&&20==Integer.parseInt(btn20.getText())&&21==Integer.parseInt(btn21.getText())&&22==Integer.parseInt(btn22.getText())&&23==Integer.parseInt(btn23.getText())&&24==Integer.parseInt(btn24.getText())){
                 String ssss= JOptionPane.showInputDialog(null, "تو بردي  توخيلي خوبي  حالا اسمت رو بنويس:","نام",PLAIN_MESSAGE);
                 Emtiaz+=30;
+                String zaman = minutes_string+":"+seconds_string;
+                setVisible(false);
 
                 System.out.println(ssss);
      

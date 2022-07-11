@@ -382,9 +382,10 @@ public class game3x3easy extends DokmeHa{
                 Emtiaz+=2;
 
                 System.out.println(ssss);
-                String a = minutes_string+":"+seconds_string;
-	      String [][] jadval={{ssss,a}};
+                String zaman = minutes_string+":"+seconds_string;
+	      String [][] jadval={{ssss,zaman}};
               new  RecordHa(jadval);
+              setVisible(false);
         } 
      
         

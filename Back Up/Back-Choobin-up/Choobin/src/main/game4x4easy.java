@@ -553,7 +553,11 @@ public class game4x4easy extends DokmeHa{
                 String ssss= JOptionPane.showInputDialog(null, "تو بردي  توخيلي خوبي  حالا اسمت رو بنويس:","نام",PLAIN_MESSAGE);
                 Emtiaz+=4;
 
-                System.out.println(ssss);        } 
+                System.out.println(ssss); 
+                String zaman = minutes_string+":"+seconds_string;
+                setVisible(false);
+     
+     } 
         
     }
         

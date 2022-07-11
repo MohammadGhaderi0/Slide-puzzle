@@ -805,6 +805,8 @@ public class Asan5Dar5 extends DokmeHa{
                 Emtiaz+=10;
 
                 System.out.println(ssss);
+                String zaman = minutes_string+":"+seconds_string;
+                setVisible(false);
      
      }} 
         
