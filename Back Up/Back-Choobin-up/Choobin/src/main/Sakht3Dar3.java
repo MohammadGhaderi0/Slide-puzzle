@@ -519,12 +519,14 @@ MakhfiKardaneDokmeha();
 
     
      if (btn9.getText()==""&&btn8.getText()!=""&&btn1.getText()!=""&&btn2.getText()!=""&&btn3.getText()!=""&&btn4.getText()!=""&&btn5.getText()!=""&&btn6.getText()!=""&&btn7.getText()!=""&&1==Integer.parseInt(btn1.getText())&&2==Integer.parseInt(btn2.getText())&&3==Integer.parseInt(btn3.getText())&&4==Integer.parseInt(btn4.getText())&&5==Integer.parseInt(btn5.getText())&&6==Integer.parseInt(btn6.getText())&&7==Integer.parseInt(btn7.getText())&&8==Integer.parseInt(btn8.getText())){
-        String ssss= JOptionPane.showInputDialog(null, "تو بردي  توخيلي خوبي  حالا اسمت رو بنويس:","نام",PLAIN_MESSAGE);
-        Emtiaz+=5;
+        String name= JOptionPane.showInputDialog(null, "تو بردي  توخيلي خوبي  حالا اسمت رو بنويس:","نام",PLAIN_MESSAGE);
+ 
         String zaman = minutes_string+":"+seconds_string;
-        setVisible(false);
+                            String [][] jadval={{zaman,name}};
 
-                System.out.println(ssss);
+                              new  RecordHa(jadval);
+
+                setVisible(false);
         } 
         
     }
