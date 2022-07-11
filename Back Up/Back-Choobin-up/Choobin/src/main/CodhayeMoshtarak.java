@@ -10,8 +10,7 @@ import javax.swing.JLabel;
  *
  */
 public class CodhayeMoshtarak extends JFrame{
-         public  int Emtiaz=0;
-     JLabel CadreEmtiaz;
+
     public  CodhayeMoshtarak() {
         
                super("15 Puzzle");
@@ -26,12 +25,7 @@ public class CodhayeMoshtarak extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         getContentPane().setBackground(new Color(41, 52, 74));
-                       CadreEmtiaz = new JLabel();
-               CadreEmtiaz.setText("امتياز شما "+Integer.toString(Emtiaz));
-               CadreEmtiaz.setFont(new Font("homa ", Font.BOLD, 25));
-               CadreEmtiaz.setBounds(190,30,200,50);
-               CadreEmtiaz.setForeground(Color.yellow);
-               add(CadreEmtiaz);
+
         
         setLayout(null);
         
