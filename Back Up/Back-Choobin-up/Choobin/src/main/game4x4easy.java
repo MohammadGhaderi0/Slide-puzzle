@@ -416,7 +416,6 @@ public class game4x4easy extends DokmeHa{
     for (int i =1;i<16;i++){    
     list1.add(Integer.toString(i));
     }
-            System.out.println(list1.toString());
 
     
     int Adad1 = rand.nextInt(15);
