@@ -12,7 +12,7 @@ public class SafheyeAval extends CodhayeMoshtarak{
         public JButton Sakht;
         public JButton RekordHa;
         public JButton BarnameNevisan;
-        public String[][] AmirVaMohammad={{"12:25","Amir Hossein"},{"12:25","Mohammad Ghaderi"}};        
+        public String[][] AmirVaMohammad={{"12:25","Amir Hossein Hossein Zadeh Fakhari"},{"12:25","Mohammad Ghaderi"}};        
 
 // Sazandeye Frame      
     public  SafheyeAval() {
