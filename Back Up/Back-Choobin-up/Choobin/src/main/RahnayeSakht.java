@@ -10,13 +10,14 @@ import javax.swing.JLabel;
 
 public class RahnayeSakht extends JFrame{
     
-    JLabel tozih;
-    
+    JLabel tozih1;
+    JLabel tozih2;
+    JLabel tozih3;
     public RahnayeSakht(){
                        super("15 Puzzle");
                
                // Andaze Frame
-                   setSize(400,550);
+                   setSize(480,300);
 
 // Miare Markaz Safhe ==> https://stackoverflow.com/questions/144892/how-to-center-a-window-in-java
         setLocationRelativeTo(null);
@@ -33,7 +34,18 @@ public class RahnayeSakht extends JFrame{
         setLayout(null);
         
         setVisible(true);
-        tozih = new JLabel();
+        tozih1 = new JLabel("اين قسمت يذره سخت تر از قبليه بايد اعداد رو مرتب کني ولي اعداد رو فقط وقتي");
+        tozih1.setBounds(60,10,620,200);
+        add(tozih1);
+        tozih1.setForeground(Color.WHITE);
+        tozih2 = new JLabel("مي بيني که دکمه موس رو روشون نگه داري اگه نگه داشتي و عددي نديدي پس اين همون");
+        tozih2.setBounds(50,30,620,200);
+        add(tozih2);
+        tozih2.setForeground(Color.WHITE);
+        tozih3 = new JLabel("خونه خاليه اس موفق باشي:)");
+        tozih3.setBounds(180,50,600,200);
+        add(tozih3);
+        tozih3.setForeground(Color.WHITE);
     }
 }
 

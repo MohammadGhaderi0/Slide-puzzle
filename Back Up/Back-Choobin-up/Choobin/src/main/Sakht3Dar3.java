@@ -297,7 +297,7 @@ MakhfiKardaneDokmeha();
    
                 if (a ==0){
                     JOptionPane.showMessageDialog(null, "اي بابا!!");
-                    new EASYpage2();
+                    new BakhsheSakht();
                     setVisible(false);
                     
                 }else{

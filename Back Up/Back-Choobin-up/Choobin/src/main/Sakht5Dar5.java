@@ -754,7 +754,7 @@ public class Sakht5Dar5 extends DokmeHa{
    
                 if (a ==0){
                     JOptionPane.showMessageDialog(null, "اي بابا!!");
-                    new EASYpage2();
+                    new BakhsheSakht();
                     setVisible(false);
                     
                 }else{
@@ -831,6 +831,12 @@ public class Sakht5Dar5 extends DokmeHa{
 		     restart.setBounds(190,555,100,50);
                 restart.setText("از نو");
             }
+        });
+        rahnama.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+                new RahnayeSakht();
+
+                        }
         });
     }
         
