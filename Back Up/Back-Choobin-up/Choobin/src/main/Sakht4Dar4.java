@@ -598,7 +598,6 @@ public class Sakht4Dar4 extends DokmeHa {
     for (int i =1;i<16;i++){    
     list1.add(Integer.toString(i));
     }
-            System.out.println(list1.toString());
 
     
     int Adad1 = rand.nextInt(15);
@@ -774,9 +773,6 @@ public class Sakht4Dar4 extends DokmeHa {
     
     
         public void MakhfiKardaneDokmeha(){
-    
-                 System.out.println(btn8.getText());
-                 System.out.println(btn1.getText());
 
     for (int i=0; i<2;i++){
          if ((btn1.getText()!="")&&(1==Integer.parseInt(btn1.getText()))){              
