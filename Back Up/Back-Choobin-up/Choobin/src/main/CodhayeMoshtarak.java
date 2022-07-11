@@ -4,6 +4,8 @@ package main;
 import java.awt.Color;
 import java.awt.Font;
 import javax.swing.JFrame;
+import java.awt.Image;
+
 import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.swing.JLabel;
