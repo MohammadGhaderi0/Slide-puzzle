@@ -129,7 +129,7 @@ public class Asan5Dar5 extends DokmeHa{
     public JButton btn24;
     public JButton btn25;
     public JLabel timeLabel;
-
+    public boolean random2;
     
     public Asan5Dar5(){
 
@@ -518,6 +518,7 @@ public class Asan5Dar5 extends DokmeHa{
                 }
                if (e.getSource()==stop && started == true){
                    started=false;
+		       random2=false;
 		   stop.setText("ادامه");
 		   stop();
 		           back.setBounds(190,420,100,50);
@@ -527,6 +528,7 @@ public class Asan5Dar5 extends DokmeHa{
                }
                else if (e.getSource()==stop&& started == false) {
                     started=true;
+		       random2=true;
                     stop.setText("توقف");
                     start();  
 		    back.setBounds(310,555,100,50);
@@ -542,6 +544,23 @@ public class Asan5Dar5 extends DokmeHa{
         
         restart.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+		    
+		      if(random2==false){
+                    stop.setText("توقف");
+                
+		 back.setBounds(310,555,100,50);
+                    stop.setBounds(70,555,100,50);
+                                       restart.setBounds(190,555,100,50);
+                    timeLabel.setBounds(195,470,200,100);
+                                            off(b);
+                stop.setVisible(true);
+                JayeRandomDokme();
+                MacaneDorost();
+                started=true;
+		reset();
+                start();
+                }
+		    
                 b=true;
                 off(b);
                 stop.setVisible(true);
