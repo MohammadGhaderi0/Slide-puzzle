@@ -573,6 +573,12 @@ public class Asan5Dar5 extends DokmeHa{
 		restart.setBounds(190,555,100,50);
             }
         });
+        rahnama.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+              new RahnamyeAsan();
+              
+                        }
+        });
         
     }
         

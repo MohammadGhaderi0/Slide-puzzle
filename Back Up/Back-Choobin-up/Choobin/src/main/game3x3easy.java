@@ -290,6 +290,12 @@ public   boolean random2;
                 restart.setText("از نو");
             }
         });
+        rahnama.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+              new RahnamyeAsan();
+              
+                        }
+        });
 
     }
     

@@ -406,6 +406,12 @@ public class game4x4easy extends DokmeHa{
                 start();
             }
         });
+        rahnama.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+              new RahnamyeAsan();
+              
+                        }
+        });
         
     }
         

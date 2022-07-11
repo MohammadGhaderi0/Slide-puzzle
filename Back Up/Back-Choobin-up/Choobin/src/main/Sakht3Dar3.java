@@ -376,6 +376,13 @@ MakhfiKardaneDokmeha();
                 restart.setText("از نو");
             }
         });
+        rahnama.addActionListener(new ActionListener(){
+            public void actionPerformed(ActionEvent e){
+                new RahnayeSakht();
+
+                        }
+        });
+        
 
 
     }
