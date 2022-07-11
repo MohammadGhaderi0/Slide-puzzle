@@ -111,8 +111,13 @@ public class Sakht4Dar4 extends DokmeHa {
     public   boolean random2;
 	
     public Sakht4Dar4 (){
+	    
 
-
+        timeLabel = new JLabel();
+        timeLabel.setBounds(200,430,200,100);
+        timeLabel.setForeground(Color.WHITE);
+        timeLabel.setFont(new Font("Verdana",Font.PLAIN,30));
+        add(timeLabel);
                                        
 
         btn9 =new JButton("9");
@@ -554,21 +559,21 @@ public class Sakht4Dar4 extends DokmeHa {
         restart.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
 		    
-// 		       if(random2==false){
-//                     stop.setText("توقف");
+		       if(random2==false){
+                    stop.setText("توقف");
                 
-// 		 back.setBounds(310,555,100,50);
-//                     stop.setBounds(70,555,100,50);
-//                                        restart.setBounds(190,555,100,50);
-//                     timeLabel.setBounds(195,470,200,100);
-//                                             off(b);
-//                 stop.setVisible(true);
-//                 JayeRandomDokme();
-//                 MacaneDorost();
-//                 started=true;
-// 		reset();
-//                 start();
-//                 }
+		 back.setBounds(310,555,100,50);
+                    stop.setBounds(70,555,100,50);
+                                       restart.setBounds(190,555,100,50);
+                    timeLabel.setBounds(195,470,200,100);
+                                            off(b);
+                stop.setVisible(true);
+                JayeRandomDokme();
+                MacaneDorost();
+                started=true;
+		reset();
+                start();
+                }
 		    
                 JayeRandomDokme();
                 MacaneDorost();
