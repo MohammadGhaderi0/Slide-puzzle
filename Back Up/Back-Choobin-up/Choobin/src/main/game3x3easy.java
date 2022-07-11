@@ -86,6 +86,7 @@ public class game3x3easy extends DokmeHa{
 	}
     
     public JLabel timeLabel;
+public   boolean random2;
 
     public game3x3easy(){
 	    
@@ -230,6 +231,8 @@ public class game3x3easy extends DokmeHa{
                 }
                if (e.getSource()==stop && started == true){
                    started=false;
+		   random2=false;
+
 		   stop.setText("ادامه");
 		   stop();
 		                                  back.setBounds(190,420,100,50);
@@ -239,6 +242,7 @@ public class game3x3easy extends DokmeHa{
                }
                else if (e.getSource()==stop&& started == false) {
                     started=true;
+		     random2=true;
                     stop.setText("توقف");
                     start();  
 		                            back.setBounds(310,555,100,50);
@@ -254,6 +258,26 @@ public class game3x3easy extends DokmeHa{
         
         restart.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+		    
+		    
+		     if(random2==false){
+                    stop.setText("توقف");
+                
+		 back.setBounds(310,555,100,50);
+                    stop.setBounds(70,555,100,50);
+                                       restart.setBounds(190,555,100,50);
+                    timeLabel.setBounds(195,470,200,100);
+                                            off(b);
+                stop.setVisible(true);
+                JayeRandomDokme();
+                MacaneDorost();
+                started=true;
+		reset();
+                start();
+                }
+		    
+		    
+		    
                 b=true;
                 off(b);
                 stop.setVisible(true);
