@@ -4,7 +4,8 @@ package main;
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
-
+import java.io.IOException;
+import javax.imageio.ImageIO;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
