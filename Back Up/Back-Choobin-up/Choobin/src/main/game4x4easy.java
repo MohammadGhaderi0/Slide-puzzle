@@ -105,7 +105,7 @@ public class game4x4easy extends DokmeHa{
     public JButton btn16;
     public JLabel timeLabel;
 
-    public   boolean random2;
+    
 	
     public game4x4easy(){
                             
@@ -350,7 +350,6 @@ public class game4x4easy extends DokmeHa{
                 }
                if (e.getSource()==stop && started == true){
                    started=false;
-		       random2=false;
 		   stop.setText("ادامه");
 		   stop();
 		                                  back.setBounds(190,420,100,50);
@@ -360,7 +359,6 @@ public class game4x4easy extends DokmeHa{
                }
                else if (e.getSource()==stop&& started == false) {
                     started=true;
-		       random2=true;
                     stop.setText("توقف");
                     start();  
 		                            back.setBounds(310,555,100,50);
@@ -378,22 +376,11 @@ public class game4x4easy extends DokmeHa{
             public void actionPerformed(ActionEvent e) {
 		    
 		    
-		      if(random2==false){
-                    stop.setText("توقف");
-                
-		 back.setBounds(310,555,100,50);
-                    stop.setBounds(70,555,100,50);
-                                       restart.setBounds(190,555,100,50);
-                    timeLabel.setBounds(195,470,200,100);
-                                            off(b);
-                stop.setVisible(true);
-                JayeRandomDokme();
-                MacaneDorost();
-                started=true;
-		reset();
-                start();
-                }
-		    
+                stop.setText("توقف");
+		back.setBounds(310,555,100,50);
+                stop.setBounds(70,555,100,50);
+                restart.setBounds(190,555,100,50);
+                timeLabel.setBounds(195,470,200,100);
                 b=true;
                 off(b);
                 stop.setVisible(true);
@@ -401,8 +388,9 @@ public class game4x4easy extends DokmeHa{
                 MacaneDorost();
                 started=true;
 		reset();
-		    restart.setText("از نو");
-		     restart.setBounds(190,555,100,50);
+                start();
+		restart.setText("از نو");
+		restart.setBounds(190,555,100,50);
                 start();
             }
         });
